@@ -1,0 +1,37 @@
+id: lex.example.001
+typus: lex
+status: consensus_plenus
+titulus: "Назва закону"
+formula: "Коротка формула закону."
+principium: "Розгорнутий зміст принципу."
+
+argumenta:
+  - id: argumentum.001
+    thesis: "Головний аргумент."
+    fontes:
+      - "Автор або джерело"
+    objectiones:
+      - id: obiectio.001
+        thesis: "Сильне заперечення."
+        responsio: "Відповідь на заперечення."
+
+casus_extremi:
+  - "Граничний випадок."
+
+probatio_onus:
+  applies_to:
+    - coercitio
+    - restrictio_libertatis
+
+abusus_periculum:
+  gradus: medius
+  nota: "Як цим принципом можуть зловживати."
+
+revisio_condiciones:
+  - "Умова перегляду."
+
+protocola:
+  - "protocols/YYYY-MM-DD_topic.md"
+
+argumenta_arbor:
+  - "arguments/laws/example.md"
