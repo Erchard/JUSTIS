@@ -95,6 +95,7 @@
 | Q-057 | P1 | protocol_done | Як оновлювати склад Небесного парламенту без перетворення оцінки на конкурс популярності? | організаційне питання | `protocols/2026-04-26_membership-renewal-rule.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-058 | P2 | opened | Коли проводити перший перегляд статусів членів парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-059 | P2 | opened | Чи потрібен окремий машинний реєстр членів парламенту у форматі JML/YAML? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
+| Q-060 | P1 | protocol_done | Яка оптимальна кількість членів Небесного парламенту для повного складу і для окремої сесії? | організаційне питання | `protocols/2026-04-26_optimal-parliament-size.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 
 ## Правило додавання нових питань
 
