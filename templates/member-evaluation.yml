@@ -1,0 +1,23 @@
+membrum: "Ім'я"
+status: active
+
+utilitas:
+  argumentativa: 0
+  contraargumentativa: 0
+  singularitas: 0
+  praxis: 0
+  methodologia: 0
+  repraesentatio: 0
+
+periculum:
+  abusus: medius
+  nota: "Ризик зловживання авторитетом або перекриття інших голосів."
+
+munus:
+  - "Яку роль виконує цей член парламенту?"
+
+causa_status:
+  - "Чому запропоновано саме цей статус?"
+
+revisio_condiciones:
+  - "Коли статус треба переглянути?"

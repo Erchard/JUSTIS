@@ -92,6 +92,9 @@
 | Q-054 | P3 | opened | Чи потрібен окремий реєстр прийнятих законів, презумпцій, апорій і правил зважування? | організаційне питання | `codex/README.md` |
 | Q-055 | P3 | opened | Чи потрібен окремий changelog проекту, крім Git-історії? | організаційне питання | `PROJECT_STRUCTURE.md` |
 | Q-056 | P1 | protocol_done | Як призупиняти тему і повертати її в беклог, якщо вона залежить від фундаментальнішого питання? | методологічне питання | `protocols/2026-04-26_return-topic-to-backlog-rule.md` |
+| Q-057 | P1 | protocol_done | Як оновлювати склад Небесного парламенту без перетворення оцінки на конкурс популярності? | організаційне питання | `protocols/2026-04-26_membership-renewal-rule.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
+| Q-058 | P2 | opened | Коли проводити перший перегляд статусів членів парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
+| Q-059 | P2 | opened | Чи потрібен окремий машинний реєстр членів парламенту у форматі JML/YAML? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
 
 ## Правило додавання нових питань
 
