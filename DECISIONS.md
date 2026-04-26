@@ -8,31 +8,51 @@
 
 ## Статуси
 
+### Змістовий статус рішення
+
 - `consensus_plenus` - повний консенсус.
 - `consensus_limitatus` - обмежений консенсус.
 - `consensus_practicus` - практичний консенсус.
 - `aporia` - зафіксована нерозв'язана напруга.
 - `revisendum` - потребує перегляду.
 
+### Процедурна надійність
+
+- `deliberatio_plena` - є повна дискусійна структура: виступи, заперечення, відповіді, матриця аргументів і умови перегляду.
+- `deliberatio_partialis` - є часткова дискусія, але бракує повної структури перевірки.
+- `summarium_provisorium` - є попереднє резюме або підсумок без повної дискусійної структури.
+- `documentum_provisorium` - рішення зафіксоване в специфікації або робочому документі без окремого протоколу.
+- `ratificatio_requiritur` - рішення потребує ратифікації повною дискусією.
+
+Процедурна надійність не скасовує зміст рішення. Вона показує, наскільки добре документ підтверджує, що рішення справді пройшло парламентську дискусію.
+
 ## Рішення
 
-| ID | Дата | Тема | Рішення | Статус | Протокол |
-| --- | --- | --- | --- | --- | --- |
-| D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | `specifications/HEAVENLY_PARLIAMENT_NAME.md` |
-| D-002 | 2026-04-26 | Розширення складу парламенту | Додано всіх запропонованих кандидатів; поточний склад - 41 індивідуальний член. | consensus_limitatus | `protocols/2026-04-26_heavenly-parliament-membership-expansion.md` |
-| D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів. | consensus_limitatus | `protocols/2026-04-26_codex_document_architecture.md` |
-| D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. | consensus_plenus | `protocols/2026-04-26_consensus-not-majority-rule.md` |
-| D-005 | 2026-04-26 | Justice Markup Language | Створено JML з латинськими ключами і робочою мовою для змісту. | consensus_limitatus | `protocols/2026-04-26_justice-markup-language-latin.md` |
-| D-006 | 2026-04-26 | Регламент сесій | Кожна сесія починається з погодження порядку денного. | consensus_plenus | `protocols/2026-04-26_session-agenda-regulation.md` |
-| D-007 | 2026-04-26 | Повернення теми в беклог | Тема може бути призупинена зі статусом `blocked_by_deeper_question`. | consensus_plenus | `protocols/2026-04-26_return-topic-to-backlog-rule.md` |
-| D-008 | 2026-04-26 | Оновлення складу парламенту | Запроваджено статуси участі й якісну оцінку користі членів парламенту. | consensus_plenus | `protocols/2026-04-26_membership-renewal-rule.md` |
-| D-009 | 2026-04-26 | Оптимальна кількість | 41 член залишається повним складом; для сесій формуються менші колегії. | consensus_plenus | `protocols/2026-04-26_optimal-parliament-size.md` |
-| D-010 | 2026-04-26 | Повна оцінка методології | Імплементувати сім покращень: джерельна надійність, голос вразливих сторін, реєстр рішень, аудит упереджень, критерій зрілості, dissent note, правило простоти. | consensus_plenus | `protocols/2026-04-26_methodology-full-parliament-review.md` |
-| D-011 | 2026-04-26 | Перша сесія | Погоджено порядок денний першої змістовної сесії: Q-001, Q-002, Q-004. Регламенти зберігаються як Markdown із JML-блоком метаданих. | consensus_plenus | `protocols/2026-04-26_session-001_initial-axioms.md` |
-| D-012 | 2026-04-26 | Метаблок сесії | Кожна сесія має містити короткий метаблок для перевірки якості методу і процесу. | consensus_plenus | `protocols/2026-04-26_session-meta-review-rule.md` |
-| D-013 | 2026-04-26 | Формалізація через DSL | Усе, що підвищує перевірюваність і дисципліну без втрати змісту, має бути формалізоване через JML або споріднений DSL. | consensus_practicus | `protocols/2026-04-26_dsl-formalization-rule.md` |
-| D-014 | 2026-04-26 | Друге розширення парламенту | Додано 8 нових індивідуальних членів: Хаммурапі, Ієшуа Га-Ноцрі, апостола Павла, Лейбніца, Ніла Стівенсона, Вернора Вінджа, Сью Джонсон і Девіда Чалмерса. Сенека вже був членом. "Техке" винесено як кандидат на уточнення. Поточний склад - 49 членів. | consensus_practicus | `protocols/2026-04-26_membership-expansion-psychotherapy-futures-consciousness-religion-law.md` |
+| ID | Дата | Тема | Рішення | Змістовий статус | Процедурна надійність | Протокол |
+| --- | --- | --- | --- | --- | --- | --- |
+| D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | documentum_provisorium; ratificatio_requiritur | `specifications/HEAVENLY_PARLIAMENT_NAME.md` |
+| D-002 | 2026-04-26 | Розширення складу парламенту | Додано всіх запропонованих кандидатів; поточний склад тоді став 41 індивідуальний член. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_heavenly-parliament-membership-expansion.md` |
+| D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_codex_document_architecture.md` |
+| D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. | consensus_plenus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_consensus-not-majority-rule.md` |
+| D-005 | 2026-04-26 | Justice Markup Language | Створено JML з латинськими ключами і робочою мовою для змісту. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_justice-markup-language-latin.md` |
+| D-006 | 2026-04-26 | Регламент сесій | Кожна сесія починається з погодження порядку денного. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_session-agenda-regulation.md` |
+| D-007 | 2026-04-26 | Повернення теми в беклог | Тема може бути призупинена зі статусом `blocked_by_deeper_question`. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_return-topic-to-backlog-rule.md` |
+| D-008 | 2026-04-26 | Оновлення складу парламенту | Запроваджено статуси участі й якісну оцінку користі членів парламенту. | consensus_plenus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_membership-renewal-rule.md` |
+| D-009 | 2026-04-26 | Оптимальна кількість | 41 член був прийнятним повним складом на той момент; для сесій формуються менші колегії. Після D-014 повний склад - 49. | consensus_plenus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_optimal-parliament-size.md` |
+| D-010 | 2026-04-26 | Повна оцінка методології | Імплементувати сім покращень: джерельна надійність, голос вразливих сторін, реєстр рішень, аудит упереджень, критерій зрілості, dissent note, правило простоти. | consensus_plenus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_methodology-full-parliament-review.md` |
+| D-011 | 2026-04-26 | Перша сесія | Погоджено порядок денний першої змістовної сесії: Q-001, Q-002, Q-004. Регламенти зберігаються як Markdown із JML-блоком метаданих. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_session-001_initial-axioms.md` |
+| D-012 | 2026-04-26 | Метаблок сесії | Кожна сесія має містити короткий метаблок для перевірки якості методу і процесу. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_session-meta-review-rule.md` |
+| D-013 | 2026-04-26 | Формалізація через DSL | Усе, що підвищує перевірюваність і дисципліну без втрати змісту, має бути формалізоване через JML або споріднений DSL. | consensus_practicus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_dsl-formalization-rule.md` |
+| D-014 | 2026-04-26 | Друге розширення парламенту | Додано 8 нових індивідуальних членів: Хаммурапі, Ієшуа Га-Ноцрі, апостола Павла, Лейбніца, Ніла Стівенсона, Вернора Вінджа, Сью Джонсон і Девіда Чалмерса. Сенека вже був членом. "Техке" винесено як кандидат на уточнення. Поточний склад - 49 членів. | consensus_practicus | deliberatio_plena | `protocols/2026-04-26_membership-expansion-psychotherapy-futures-consciousness-religion-law.md` |
+| D-015 | 2026-04-26 | Процедурна чесність | Запроваджено стандарт процедурної чесності; старі резюме-рішення позначаються як попередні й потребують ратифікації; для майбутніх рішень потрібна повна дискусійна структура. | consensus_practicus | deliberatio_plena | `protocols/2026-04-26_procedural-integrity-audit.md` |
 
 ## Правило оновлення
 
 Кожне нове рішення Небесного парламенту має бути додане до цього реєстру після створення протоколу.
+
+Для кожного рішення потрібно вказувати два рівні:
+
+1. змістовий статус рішення;
+2. процедурну надійність протоколу.
+
+Якщо процедурна надійність нижча за `deliberatio_plena`, рішення не можна використовувати як остаточну підставу для закону Кодексу без додаткової ратифікації.
