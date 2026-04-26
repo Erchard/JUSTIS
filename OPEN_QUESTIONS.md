@@ -96,6 +96,9 @@
 | Q-058 | P2 | opened | Коли проводити перший перегляд статусів членів парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-059 | P2 | opened | Чи потрібен окремий машинний реєстр членів парламенту у форматі JML/YAML? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
 | Q-060 | P1 | protocol_done | Яка оптимальна кількість членів Небесного парламенту для повного складу і для окремої сесії? | організаційне питання | `protocols/2026-04-26_optimal-parliament-size.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
+| Q-061 | P1 | protocol_done | Що ще упускає наша методологія пошуку істини після всіх процедурних реформ? | методологічне питання | `protocols/2026-04-26_methodology-full-parliament-review.md` |
+| Q-062 | P2 | opened | Як практично проводити аудит упереджень для першої аксіоми? | методологічне питання | `specifications/RESEARCH_METHODOLOGY.md` |
+| Q-063 | P2 | opened | Як представляти голос жертв або вразливих сторін, якщо немає прямого свідчення? | методологічне питання | `specifications/RESEARCH_METHODOLOGY.md` |
 
 ## Правило додавання нових питань
 

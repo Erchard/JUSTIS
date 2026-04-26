@@ -102,6 +102,10 @@ JML використовує латинські назви ключових по
 | `fontes` | джерела |
 | `protocola` | протоколи |
 | `argumenta_arbor` | дерево аргументів |
+| `fides_fontis` | рівень джерельної надійності |
+| `partes_affectae` | зацікавлені або вразливі сторони |
+| `audit_bias` | аудит упереджень |
+| `dissentiones` | зафіксовані незгоди |
 
 ## 8. Мінімальна структура закону
 
@@ -112,6 +116,7 @@ status: consensus_plenus
 titulus: "Назва закону"
 formula: "Коротка формула закону."
 principium: "Розгорнутий зміст принципу."
+fides_fontis: reconstruction
 
 argumenta:
   - id: argumentum.001
@@ -134,6 +139,23 @@ probatio_onus:
 abusus_periculum:
   gradus: medius
   nota: "Як цим принципом можуть зловживати."
+
+partes_affectae:
+  - "Хто виграє або страждає від цього принципу?"
+
+audit_bias:
+  culturalis: "not_checked"
+  religiosus: "not_checked"
+  genus: "not_checked"
+  classis: "not_checked"
+  civilizationalis: "not_checked"
+  institutionalis: "not_checked"
+  technologicus: "not_checked"
+
+dissentiones:
+  - actor: "Хто не погоджується?"
+    thesis: "Суть незгоди."
+    cur_non_obstat: "Чому це не блокує рішення?"
 
 revisio_condiciones:
   - "Умова перегляду."
@@ -170,7 +192,17 @@ argumenta_arbor:
 | `dominium_culturale` | культурне домінування |
 | `periculum_irreversibile` | незворотний ризик |
 
-## 11. Правило розвитку JML
+## 11. Рівні джерельної надійності
+
+Для `fides_fontis` використовуються:
+
+- `direct_text` - теза прямо спирається на текст автора;
+- `strong_interpretation` - сильна інтерпретація на основі текстів;
+- `reconstruction` - реконструкція можливої позиції;
+- `analogy` - аналогія з ширшою традицією;
+- `speculative` - гіпотетичне припущення.
+
+## 12. Правило розвитку JML
 
 JML є експериментальною.
 
@@ -181,7 +213,7 @@ JML є експериментальною.
 3. Уточнити словник.
 4. Лише потім думати про автоматичну перевірку.
 
-## 12. Статус
+## 13. Статус
 
 Статус JML:
 

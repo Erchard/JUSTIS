@@ -6,7 +6,8 @@
 
 - `README.md` - короткий вступ;
 - `PROJECT_STRUCTURE.md` - карта структури;
-- `OPEN_QUESTIONS.md` - реєстр відкритих проблемних питань.
+- `OPEN_QUESTIONS.md` - реєстр відкритих проблемних питань;
+- `DECISIONS.md` - реєстр прийнятих рішень Небесного парламенту.
 
 ## 1. `specifications`
 

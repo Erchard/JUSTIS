@@ -1,6 +1,7 @@
 id: lex.example.001
 typus: lex
 status: consensus_plenus
+fides_fontis: reconstruction
 titulus: "Назва закону"
 formula: "Коротка формула закону."
 principium: "Розгорнутий зміст принципу."
@@ -26,6 +27,23 @@ probatio_onus:
 abusus_periculum:
   gradus: medius
   nota: "Як цим принципом можуть зловживати."
+
+partes_affectae:
+  - "Хто виграє або страждає від цього принципу?"
+
+audit_bias:
+  culturalis: "not_checked"
+  religiosus: "not_checked"
+  genus: "not_checked"
+  classis: "not_checked"
+  civilizationalis: "not_checked"
+  institutionalis: "not_checked"
+  technologicus: "not_checked"
+
+dissentiones:
+  - actor: "Хто не погоджується?"
+    thesis: "Суть незгоди."
+    cur_non_obstat: "Чому це не блокує рішення?"
 
 revisio_condiciones:
   - "Умова перегляду."
