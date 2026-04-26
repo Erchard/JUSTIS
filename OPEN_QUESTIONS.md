@@ -100,6 +100,8 @@
 | Q-062 | P2 | opened | Як практично проводити аудит упереджень для першої аксіоми? | методологічне питання | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-063 | P2 | opened | Як представляти голос жертв або вразливих сторін, якщо немає прямого свідчення? | методологічне питання | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-064 | P1 | protocol_done | Чи має кожна сесія містити метаблок для перегляду методики і процесу? | методологічне питання | `protocols/2026-04-26_session-meta-review-rule.md` |
+| Q-065 | P1 | protocol_done | Що саме потрібно формалізувати через DSL, щоб уникнути неперевірюваних резюме? | методологічне питання | `protocols/2026-04-26_dsl-formalization-rule.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
+| Q-066 | P1 | opened | Як перетворити попередні резюме-протоколи на повні дискусійні протоколи або позначити їх як provisional? | методологічне питання | `DECISIONS.md`, `templates/deliberation-protocol.md` |
 
 ## Правило додавання нових питань
 

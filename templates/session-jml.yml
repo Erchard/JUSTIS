@@ -1,0 +1,24 @@
+id: sessio.YYYY-MM-DD.000
+typus: sessio
+status: agenda_proposita
+titulus: "Назва сесії"
+dies: "YYYY-MM-DD"
+
+quaestiones:
+  - id: Q-000
+    ordo: 1
+    typus: axioma
+    exitus_exspectatus: "protocol_done"
+
+collegium:
+  numerus: 0
+  membra:
+    - nomen: "Name"
+      munus: "role"
+
+criterium_completionis:
+  - "Що має статися, щоб сесія вважалась завершеною?"
+
+metablock:
+  required: true
+  max_portio: "10-20%"

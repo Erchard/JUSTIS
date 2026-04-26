@@ -1,0 +1,22 @@
+id: actus.000
+typus: thesis
+actor: "Name"
+fides_fontis: reconstruction
+
+thesis: "Коротка теза"
+textus: "Розгорнутий зміст"
+
+respondet_ad: null
+
+fontes:
+  - "Джерело"
+
+status: proposita
+
+objectiones:
+  - id: actus.000
+    status: aperta
+
+responsiones:
+  - id: actus.000
+    status_obiectionis: soluta
