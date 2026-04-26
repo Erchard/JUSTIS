@@ -102,6 +102,7 @@
 | Q-064 | P1 | protocol_done | Чи має кожна сесія містити метаблок для перегляду методики і процесу? | методологічне питання | `protocols/2026-04-26_session-meta-review-rule.md` |
 | Q-065 | P1 | protocol_done | Що саме потрібно формалізувати через DSL, щоб уникнути неперевірюваних резюме? | методологічне питання | `protocols/2026-04-26_dsl-formalization-rule.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
 | Q-066 | P1 | opened | Як перетворити попередні резюме-протоколи на повні дискусійні протоколи або позначити їх як provisional? | методологічне питання | `DECISIONS.md`, `templates/deliberation-protocol.md` |
+| Q-067 | P2 | opened | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/2026-04-26_membership-expansion-psychotherapy-futures-consciousness-religion-law.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 
 ## Правило додавання нових питань
 
