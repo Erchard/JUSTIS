@@ -5,10 +5,17 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 ## Read First
 
 - README.md
+- PROJECT_BRIEF.en.md
+- README.en.md
+- README.uk.md
+- INDEX.en.md
+- AGENTS.en.md
+- CONTRIBUTING.en.md
 - INDEX.md
 - OPEN_QUESTIONS.md
 - DECISIONS.md
 - codex/UNIVERSAL_JUSTICE_CODE.md
+- codex/translations/UNIVERSAL_JUSTICE_CODE.en.md
 - support/codex/STATUS_INDEX.md
 - support/codex/JUSTIFICATION_INDEX.md
 - support/codex/TERMINOLOGY.md
@@ -16,7 +23,8 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 
 ## Core Directories
 
-- codex: canonical Latin code, translations, status and justification indexes.
+- codex: canonical Latin code and official translations only.
+- support/codex: status indexes, justifications, terminology, translation policy, and detailed law records.
 - protocols: deliberations and ratified decisions.
 - arguments: structured argument and counterargument trees.
 - research: exploratory notes on axioms.
@@ -28,6 +36,8 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 ## Agent Tasks
 
 Agents are invited to find contradictions, generate edge cases, propose objections, compare laws with sources, detect hidden assumptions, and improve traceability.
+
+Structured task prompts are listed in agent_tasks.yml.
 
 ## Do Not
 

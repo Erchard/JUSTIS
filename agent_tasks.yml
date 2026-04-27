@@ -1,0 +1,20 @@
+tasks:
+  - id: find_unresolved_objection
+    description: "Find a strong unresolved objection to any current law of the Code."
+    output: "A propositio_agentis YAML block plus a short explanation."
+
+  - id: generate_edge_case
+    description: "Generate a difficult case where two accepted principles may conflict."
+    output: "A case note suitable for the cases directory."
+
+  - id: detect_hidden_assumption
+    description: "Check whether a law, protocol, or argument contains hidden cultural, religious, anthropocentric, class-based, or speciesist assumptions."
+    output: "A structured objection with source-reliability level."
+
+  - id: improve_translation
+    description: "Compare an official translation with the Latin canonical Code and propose corrections."
+    output: "A translation note with uncertain terms clearly marked."
+
+  - id: traceability_check
+    description: "Verify that a law is traceable through question, protocol, argument tree, decision, and Code entry."
+    output: "A pass/fail traceability note with missing links listed."
