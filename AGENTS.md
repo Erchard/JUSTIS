@@ -13,7 +13,7 @@ JUSTIS можна читати як структурований корпус д
 3. `OPEN_QUESTIONS.md`
 4. `DECISIONS.md`
 5. `codex/UNIVERSAL_JUSTICE_CODE.md`
-6. `codex/JUSTIFICATION_INDEX.md`
+6. `support/codex/JUSTIFICATION_INDEX.md`
 
 ## Корисні Дії
 

@@ -363,6 +363,6 @@ dissentiones:
 - `research/axioms/Q-005_moral-weight-of-the-weak.md`
 - `arguments/axioms/Q-005_moral-weight-of-the-weak.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
-- `codex/STATUS_INDEX.md`
-- `codex/JUSTIFICATION_INDEX.md`
+- `support/codex/LAWS.md`
+- `support/codex/STATUS_INDEX.md`
+- `support/codex/JUSTIFICATION_INDEX.md`

@@ -85,6 +85,6 @@ status_examinationis: preliminary_test
 ## Пов'язані документи
 
 - `CASES.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 - `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`

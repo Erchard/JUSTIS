@@ -11,7 +11,7 @@ protocola:
   - "protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "codex/LAWS.md"
+  - "support/codex/LAWS.md"
 ```
 
 ## Теза

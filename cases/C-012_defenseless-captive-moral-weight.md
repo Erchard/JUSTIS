@@ -83,7 +83,7 @@ status_examinationis: preliminary_test
 ## Пов'язані документи
 
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`
 - `arguments/axioms/Q-005_moral-weight-of-the-weak.md`
 - `research/axioms/Q-005_moral-weight-of-the-weak.md`

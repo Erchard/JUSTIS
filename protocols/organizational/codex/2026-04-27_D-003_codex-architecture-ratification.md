@@ -239,7 +239,7 @@ architectura:
     munus: "структуровані аргументи, контраргументи, відповіді й статуси заперечень"
 minimum_ad_lex:
   - "короткий пункт у codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "JML-запис у codex/LAWS.md"
+  - "JML-запис у support/codex/LAWS.md"
   - "повний протокол дискусії"
   - "дерево аргументів"
   - "умови перегляду"
@@ -270,7 +270,7 @@ D-003 потрібно переглянути, якщо:
 
 - `protocols/organizational/codex/2026-04-26_codex_document_architecture.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `arguments/README.md`
 - `archive/2026-04-27_project-cleanup/root-documents/PROJECT_STRUCTURE.md`
 - `DECISIONS.md`

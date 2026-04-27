@@ -14,7 +14,7 @@ argumenta_arbor:
   - "arguments/axioms/Q-001_suffering-moral-significance.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "codex/LAWS.md"
+  - "support/codex/LAWS.md"
 ```
 
 ## 1. Формулювання

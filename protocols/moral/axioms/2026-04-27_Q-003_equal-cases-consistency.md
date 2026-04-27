@@ -333,7 +333,7 @@ dissentiones:
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `research/axioms/Q-003_equal-cases-consistency.md`
 - `arguments/axioms/Q-003_equal-cases-consistency.md`
 - `cases/C-011_equal-cases-disparate-treatment.md`

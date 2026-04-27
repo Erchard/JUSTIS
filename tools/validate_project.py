@@ -136,8 +136,8 @@ def check_cases(errors: list[str]) -> None:
 
 def check_codex_traceability(errors: list[str]) -> None:
     codex = read_text(ROOT / "codex" / "UNIVERSAL_JUSTICE_CODE.md")
-    justification_index = read_text(ROOT / "codex" / "JUSTIFICATION_INDEX.md")
-    status_index = read_text(ROOT / "codex" / "STATUS_INDEX.md")
+    justification_index = read_text(ROOT / "support" / "codex" / "JUSTIFICATION_INDEX.md")
+    status_index = read_text(ROOT / "support" / "codex" / "STATUS_INDEX.md")
     law_numbers = re.findall(r"### Lex ([IVXLCDM]+)\.", codex)
     for number in law_numbers:
         if f"Lex {number}" not in status_index:

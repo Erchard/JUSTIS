@@ -10,3 +10,6 @@ desktop.ini
 # Generated exports
 exports/
 archive/**/artifacts/*.zip
+
+# Local unrelated project workspaces
+projects/

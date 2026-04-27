@@ -379,7 +379,7 @@ dissentiones:
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `research/axioms/Q-004_force-and-right.md`
 - `arguments/axioms/Q-004_force-and-right.md`
 - `cases/C-001_dignity-inhuman-treatment.md`

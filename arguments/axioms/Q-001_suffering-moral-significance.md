@@ -27,7 +27,7 @@ protocola:
   - "protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "codex/LAWS.md"
+  - "support/codex/LAWS.md"
 ```
 
 ## Аргумент 1

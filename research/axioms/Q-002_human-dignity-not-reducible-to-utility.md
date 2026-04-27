@@ -14,7 +14,7 @@ argumenta_arbor:
   - "arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "codex/LAWS.md"
+  - "support/codex/LAWS.md"
 ```
 
 ## 1. Формулювання

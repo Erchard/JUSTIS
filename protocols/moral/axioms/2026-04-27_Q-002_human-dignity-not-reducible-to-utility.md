@@ -460,7 +460,7 @@ dissentiones:
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`
 - `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 - `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 - `CASES.md`

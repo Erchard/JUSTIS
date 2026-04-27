@@ -14,7 +14,7 @@ argumenta_arbor:
   - "arguments/axioms/Q-004_force-and-right.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
-  - "codex/LAWS.md"
+  - "support/codex/LAWS.md"
 ```
 
 ## 1. Формулювання

@@ -286,4 +286,4 @@ dissentiones:
 - `research/axioms/Q-001_suffering-moral-significance.md`
 - `arguments/axioms/Q-001_suffering-moral-significance.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `codex/LAWS.md`
+- `support/codex/LAWS.md`

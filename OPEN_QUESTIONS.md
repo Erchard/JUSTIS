@@ -37,11 +37,11 @@
 
 | ID | Пріоритет | Статус | Питання | Тип | Пов'язані документи |
 | --- | --- | --- | --- | --- | --- |
-| Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
-| Q-002 | P0 | codex_done | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
-| Q-003 | P0 | codex_done | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-003_equal-cases-consistency.md`, `arguments/axioms/Q-003_equal-cases-consistency.md` |
-| Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
-| Q-005 | P0 | codex_done | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-005_moral-weight-of-the-weak.md`, `arguments/axioms/Q-005_moral-weight-of-the-weak.md` |
+| Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
+| Q-002 | P0 | codex_done | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
+| Q-003 | P0 | codex_done | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-003_equal-cases-consistency.md`, `arguments/axioms/Q-003_equal-cases-consistency.md` |
+| Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
+| Q-005 | P0 | codex_done | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-005_moral-weight-of-the-weak.md`, `arguments/axioms/Q-005_moral-weight-of-the-weak.md` |
 | Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-007 | P0 | opened | Чи має моральне правило бути здатним до універсалізації? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-008 | P0 | opened | Чи існує справедливість вище позитивного закону? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
@@ -76,11 +76,11 @@
 | Q-037 | P2 | opened | Яким має бути перший короткий список законів Кодексу? | структура Кодексу | `protocols/organizational/codex/2026-04-26_codex_document_architecture.md` |
 | Q-038 | P3 | opened | Чи потрібно додати до Небесного парламенту практиків, жертв або свідків несправедливості? | склад парламенту | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-039 | P3 | opened | Чи потрібно створити автоматичну перевірку JML у майбутньому? | технічне питання | `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
-| Q-040 | P3 | opened | Як експортувати фінальний Кодекс у зручні формати? | технічне питання | `INDEX.md`, `codex/README.md` |
+| Q-040 | P3 | opened | Як експортувати фінальний Кодекс у зручні формати? | технічне питання | `INDEX.md`, `support/codex/README.md` |
 | Q-041 | P1 | opened | Який регламент сесій Небесного парламенту має бути постійним? | організаційне питання | `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md` |
 | Q-042 | P1 | opened | Як визначати порядок денний кожної сесії? | організаційне питання | `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md` |
 | Q-043 | P1 | opened | Як вести реєстр рішень Небесного парламенту? | організаційне питання | `protocols/README.md` |
-| Q-044 | P1 | opened | Як відрізняти рішення, протокол, дослідження, дерево аргументів і закон Кодексу? | організаційне питання | `INDEX.md`, `codex/TERMINOLOGY.md` |
+| Q-044 | P1 | opened | Як відрізняти рішення, протокол, дослідження, дерево аргументів і закон Кодексу? | організаційне питання | `INDEX.md`, `support/codex/TERMINOLOGY.md` |
 | Q-045 | P1 | opened | Які мінімальні документи потрібні, щоб принцип можна було внести до Кодексу? | організаційне питання | `protocols/organizational/codex/2026-04-26_codex_document_architecture.md` |
 | Q-046 | P2 | opened | Як підтримувати актуальність реєстру членів Небесного парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-047 | P2 | opened | Як фіксувати різницю між індивідуальними членами парламенту і дорадчими традиціями? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
@@ -90,7 +90,7 @@
 | Q-051 | P2 | opened | Як називати файли, щоб структура залишалася зрозумілою при рості проекту? | організаційне питання | `INDEX.md`, `protocols/README.md` |
 | Q-052 | P2 | opened | Як часто переглядати методологію проекту? | організаційне питання | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-053 | P2 | opened | Як фіксувати зміни статусу питання в реєстрі відкритих питань? | організаційне питання | `OPEN_QUESTIONS.md` |
-| Q-054 | P3 | opened | Чи потрібен окремий реєстр прийнятих законів, презумпцій, апорій і правил зважування? | організаційне питання | `codex/README.md` |
+| Q-054 | P3 | opened | Чи потрібен окремий реєстр прийнятих законів, презумпцій, апорій і правил зважування? | організаційне питання | `support/codex/README.md` |
 | Q-055 | P3 | opened | Чи потрібен окремий changelog проекту, крім Git-історії? | організаційне питання | `archive/2026-04-27_project-cleanup/root-documents/RELEASE_NOTES_v0.1.0.md` |
 | Q-056 | P1 | protocol_done | Як призупиняти тему і повертати її в беклог, якщо вона залежить від фундаментальнішого питання? | методологічне питання | `protocols/organizational/procedure/2026-04-26_return-topic-to-backlog-rule.md` |
 | Q-057 | P1 | protocol_done | Як оновлювати склад Небесного парламенту без перетворення оцінки на конкурс популярності? | організаційне питання | `protocols/organizational/membership/2026-04-26_membership-renewal-rule.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
