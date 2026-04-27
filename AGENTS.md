@@ -26,6 +26,9 @@
 ## Основні файли
 
 - `README.md` - загальна карта проекту.
+- `llms.txt` - короткий маршрут читання для агентів.
+- `PROJECT_BRIEF.en.md` - англомовний вступ.
+- `GOOD_FIRST_CONTRIBUTIONS.md` - конкретні перші задачі.
 - `OPEN_QUESTIONS.md` - що ще потрібно розглянути.
 - `DECISIONS.md` - що вже вирішено.
 - `codex/UNIVERSAL_JUSTICE_CODE.md` - короткий Кодекс.

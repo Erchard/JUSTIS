@@ -1,0 +1,32 @@
+name: Подати заперечення
+description: Подати сильне заперечення до принципу, рішення або методики.
+title: "[Objection]: "
+labels: ["objection"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: До чого заперечення
+      description: Наприклад, закон Кодексу, Q-номер, D-номер, протокол або файл.
+      placeholder: "Q-000 / D-000 / codex/..."
+    validations:
+      required: true
+  - type: textarea
+    id: objection
+    attributes:
+      label: Заперечення
+      description: Сформулюйте найсильнішу версію заперечення.
+    validations:
+      required: true
+  - type: textarea
+    id: damage
+    attributes:
+      label: Що саме це ламає або уточнює
+      description: Поясніть, який принцип, висновок або приховане припущення стає проблемним.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Джерела або приклади
+      description: Додайте джерела, кейси або граничні випадки, якщо вони є.

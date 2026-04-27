@@ -1,0 +1,24 @@
+name: Поставити моральне питання
+description: Запропонувати нове питання для розгляду Небесним парламентом.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Питання
+      description: Сформулюйте моральне або процедурне питання максимально чітко.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Чому це важливо
+      description: Поясніть, що це питання може змінити в Кодексі або методології.
+    validations:
+      required: true
+  - type: textarea
+    id: related
+    attributes:
+      label: Пов'язані документи
+      description: Вкажіть пов'язані файли, рішення, питання або джерела.

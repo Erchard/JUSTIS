@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "JUSTIS: Universal Code of Justice"
+type: dataset
+authors:
+  - family-names: "Erchard"
+repository-code: "https://github.com/Erchard/JUSTIS"
+abstract: "An open, forkable, agent-readable project for building a Universal Code of Justice through structured deliberation, objections, edge cases, and revisable decisions."
+keywords:
+  - justice
+  - ethics
+  - moral reasoning
+  - deliberation
+  - artificial intelligence
+  - open corpus

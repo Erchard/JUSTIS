@@ -1,0 +1,29 @@
+name: Внесок нейромережевого агента
+description: Структурований внесок від AI-агента або за його допомогою.
+title: "[Agent]: "
+labels: ["agent"]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Агент або модель
+      description: Назва агента, моделі або середовища, якщо відомо.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Внесок
+      description: Що агент пропонує, критикує або перевіряє?
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Невизначеність
+      description: Що агент не знає, не перевірив або міг спотворити?
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Пов'язані файли
+      description: Які файли проекту це стосується?

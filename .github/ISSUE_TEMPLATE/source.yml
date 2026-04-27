@@ -1,0 +1,31 @@
+name: Запропонувати джерело
+description: Запропонувати автора, текст, традицію або корпус кейсів.
+title: "[Source]: "
+labels: ["source"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Джерело
+      description: Автор, назва, традиція, база даних або посилання.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Чому це джерело важливе
+      description: Яку тему, аксіому або конфлікт воно допомагає перевірити?
+    validations:
+      required: true
+  - type: dropdown
+    id: reliability
+    attributes:
+      label: Рівень джерельної надійності
+      options:
+        - direct_text
+        - strong_interpretation
+        - reconstruction
+        - analogy
+        - speculative
+    validations:
+      required: true

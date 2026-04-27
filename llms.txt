@@ -1,0 +1,53 @@
+# JUSTIS
+
+JUSTIS is an open project for building a Universal Code of Justice through structured moral deliberation.
+
+## Read first
+
+- README.md
+- PROJECT_BRIEF.en.md
+- AGENTS.md
+- CONTRIBUTING.md
+- GOOD_FIRST_CONTRIBUTIONS.md
+- OPEN_QUESTIONS.md
+- DECISIONS.md
+- PROJECT_STRUCTURE.md
+- codex/UNIVERSAL_JUSTICE_CODE.md
+
+## Core directories
+
+- specifications: methodology, standards, source maps, DSL/JML.
+- protocols: deliberations, ratifications, consensus status.
+- research: exploratory notes on axioms and topics.
+- arguments: structured argument and counterargument trees.
+- codex: concise laws, presumptions, weighing rules, glossary.
+- cases: moral and legal test cases.
+- sources: notes on authors, traditions, and texts.
+- templates: reusable document formats.
+
+## Agent tasks
+
+Agents are invited to:
+
+- find contradictions;
+- generate edge cases;
+- propose objections;
+- compare principles with ethical traditions;
+- detect hidden assumptions;
+- improve structure;
+- translate documents;
+- submit contributions through issues or pull requests.
+
+## Do not
+
+- present your output as final moral truth;
+- call a result consensus without a protocol;
+- remove unresolved objections;
+- optimize for persuasion over truth;
+- hide uncertainty;
+- erase minority positions without argument;
+- change the codex without preserving the argument trail.
+
+## Best contribution
+
+The strongest contribution is a well-formed objection, edge case, or structural improvement that makes the Code more truthful, less biased, and harder to abuse.

@@ -1,0 +1,29 @@
+name: Подати кейс
+description: Запропонувати реальну або уявну морально-правову ситуацію для тестування Кодексу.
+title: "[Case]: "
+labels: ["case"]
+body:
+  - type: textarea
+    id: facts
+    attributes:
+      label: Факти кейсу
+      description: Опишіть ситуацію без зайвої оцінки.
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Моральний конфлікт
+      description: Які принципи, інтереси або права конфліктують?
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Що має перевірити Кодекс
+      description: Який закон, презумпція або метод мають пройти перевірку?
+  - type: textarea
+    id: sources
+    attributes:
+      label: Джерела
+      description: Посилання на рішення суду, статтю, опис події або інше джерело.

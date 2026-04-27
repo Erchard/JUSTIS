@@ -1,0 +1,24 @@
+name: Запропонувати зміну структури
+description: Запропонувати покращення файлів, папок, шаблонів або процесу.
+title: "[Structure]: "
+labels: ["structure"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема
+      description: Що зараз незручно, нечітко або небезпечно для процедурної чесності?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Пропозиція
+      description: Що саме треба змінити?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Ризики
+      description: Які небажані наслідки може мати ця зміна?
