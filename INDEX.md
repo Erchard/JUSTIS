@@ -17,10 +17,13 @@
 Починайте тут:
 
 1. `codex/UNIVERSAL_JUSTICE_CODE.md`
-2. `codex/LAWS.md`
-3. `arguments/axioms/`
-4. `protocols/moral/`
-5. `cases/`
+2. `codex/STATUS_INDEX.md`
+3. `codex/JUSTIFICATION_INDEX.md`
+4. `codex/TERMINOLOGY.md`
+5. `codex/LAWS.md`
+6. `arguments/axioms/`
+7. `protocols/moral/`
+8. `cases/`
 
 Найцінніший внесок: сильне заперечення, граничний кейс або виявлена суперечність між Кодексом і його обґрунтуванням.
 
@@ -77,7 +80,7 @@
 3. Закон 3: Сила і право.
 4. Закон 4: Однакові випадки.
 
-Усі чотири мають статус `consensus_limitatus`, тобто вони прийняті як робочі закони, але мають зафіксовані умови перегляду.
+Статуси й обґрунтування не зберігаються у фінальному тексті Кодексу. Для цього є `codex/STATUS_INDEX.md` і `codex/JUSTIFICATION_INDEX.md`.
 
 ## Наступний змістовний напрям
 

@@ -136,16 +136,21 @@ def check_cases(errors: list[str]) -> None:
 
 def check_codex_traceability(errors: list[str]) -> None:
     codex = read_text(ROOT / "codex" / "UNIVERSAL_JUSTICE_CODE.md")
+    justification_index = read_text(ROOT / "codex" / "JUSTIFICATION_INDEX.md")
+    status_index = read_text(ROOT / "codex" / "STATUS_INDEX.md")
     law_numbers = re.findall(r"### Закон (\d+)\.", codex)
     for number in law_numbers:
-        section_pattern = re.compile(rf"### Закон {re.escape(number)}\..*?(?=### Закон \d+\.|\Z)", re.S)
-        match = section_pattern.search(codex)
+        if f"Закон {number}" not in status_index:
+            fail(errors, f"Codex Law {number} missing status index entry")
+        section_pattern = re.compile(rf"## Закон {re.escape(number)}\..*?(?=## Закон \d+\.|\Z)", re.S)
+        match = section_pattern.search(justification_index)
         if not match:
+            fail(errors, f"Codex Law {number} missing justification index entry")
             continue
         section = match.group(0)
         for required in ("protocols/", "arguments/", "research/"):
             if required not in section:
-                fail(errors, f"Codex Law {number} missing `{required}` traceability")
+                fail(errors, f"Codex Law {number} missing `{required}` traceability in justification index")
 
 
 def main() -> int:

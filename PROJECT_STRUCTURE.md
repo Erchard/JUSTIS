@@ -131,9 +131,12 @@ kung-global-ethic.md
 
 Очікувані файли:
 
-- `UNIVERSAL_JUSTICE_CODE.md` - повна версія кодексу;
+- `UNIVERSAL_JUSTICE_CODE.md` - лаконічний перелік законів Кодексу без службових статусів і обґрунтувань;
 - `UNIVERSAL_JUSTICE_DECLARATION.md` - коротка декларація;
-- `LAWS.md` - зафіксовані закони кодексу;
+- `STATUS_INDEX.md` - службовий індекс статусів законів;
+- `JUSTIFICATION_INDEX.md` - службовий індекс обґрунтувань і простежуваності;
+- `TERMINOLOGY.md` - пояснення різниці між аксіомою, принципом і законом Кодексу;
+- `LAWS.md` - розгорнуті записи законів кодексу;
 - `PRESUMPTIONS.md` - презумпції;
 - `WEIGHING_RULES.md` - правила зважування;
 - `GLOSSARY.md` - словник понять.

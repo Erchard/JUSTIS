@@ -13,6 +13,9 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - DECISIONS.md
 - PROJECT_STRUCTURE.md
 - codex/UNIVERSAL_JUSTICE_CODE.md
+- codex/STATUS_INDEX.md
+- codex/JUSTIFICATION_INDEX.md
+- codex/TERMINOLOGY.md
 
 ## Core directories
 
