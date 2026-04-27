@@ -33,7 +33,7 @@
 | D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | documentum_provisorium; ratificatio_requiritur | `specifications/HEAVENLY_PARLIAMENT_NAME.md` |
 | D-002 | 2026-04-26 | Розширення складу парламенту | Додано всіх запропонованих кандидатів; поточний склад тоді став 41 індивідуальний член. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_heavenly-parliament-membership-expansion.md` |
 | D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_codex_document_architecture.md` |
-| D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. | consensus_plenus | deliberatio_partialis; ratificatio_requiritur | `protocols/2026-04-26_consensus-not-majority-rule.md` |
+| D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. Ратифіковано D-020. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-004_consensus-rule-ratification.md` |
 | D-005 | 2026-04-26 | Justice Markup Language | Створено JML з латинськими ключами і робочою мовою для змісту. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_justice-markup-language-latin.md` |
 | D-006 | 2026-04-26 | Регламент сесій | Кожна сесія починається з погодження порядку денного. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_session-agenda-regulation.md` |
 | D-007 | 2026-04-26 | Повернення теми в беклог | Тема може бути призупинена зі статусом `blocked_by_deeper_question`. | consensus_plenus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_return-topic-to-backlog-rule.md` |
@@ -49,6 +49,7 @@
 | D-017 | 2026-04-27 | Порядок ратифікації | Першою чергою ратифікувати D-004, D-013, D-006, D-012 і D-003; після цього перейти до першої змістовної аксіоми Q-001. | consensus_practicus | deliberatio_plena | `protocols/2026-04-27_session-002_ratification-agenda.md` |
 | D-018 | 2026-04-27 | Закон 1: Страждання | Перший запис Кодексу: страждання не можна ігнорувати, нормалізувати або заподіювати без достатнього виправдання. | consensus_limitatus | deliberatio_plena | `protocols/2026-04-27_Q-001_suffering-moral-significance.md` |
 | D-019 | 2026-04-27 | Статус Сесії 001 | Сесію 001 визнано частково завершеною: Q-001 завершено і внесено до Кодексу; Q-002 і Q-004 перенесено в окремі наступні змістовні сесії. | consensus_practicus | deliberatio_plena | `protocols/2026-04-27_session-001-status-and-continuation.md` |
+| D-020 | 2026-04-27 | Ратифікація D-004 | Ратифіковано правило консенсусу: закони Кодексу не ухвалюються більшістю; суттєві аргументи й контраргументи мають бути опрацьовані, а незнята суттєва незгода знижує або змінює статус рішення. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-004_consensus-rule-ratification.md` |
 
 ## Правило оновлення
 
