@@ -104,7 +104,7 @@
 | Q-065 | P1 | protocol_done | Що саме потрібно формалізувати через DSL, щоб уникнути неперевірюваних резюме? | методологічне питання | `protocols/2026-04-26_dsl-formalization-rule.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
 | Q-066 | P1 | protocol_done | Як перетворити попередні резюме-протоколи на повні дискусійні протоколи або позначити їх як provisional? | методологічне питання | `protocols/2026-04-26_procedural-integrity-audit.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`, `DECISIONS.md` |
 | Q-067 | P2 | protocol_done | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
-| Q-068 | P0 | ratification_required | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
+| Q-068 | P0 | protocol_done | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `protocols/2026-04-27_session-002_ratification-agenda.md`, `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
 | Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 
 ## Правило додавання нових питань
@@ -134,13 +134,13 @@
 
 Рекомендований порядок денний наступної сесії:
 
-1. Q-068: Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією?
-2. D-004: Ратифікація правила консенсусу.
-3. D-013: Ратифікація правила формалізації через DSL.
+1. D-004: Ратифікація правила консенсусу.
+2. D-013: Ратифікація правила формалізації через DSL.
+3. D-006: Ратифікація регламенту сесій.
 
 Причина:
 
-Перед початком нової великої філософської теми потрібно підтвердити процедурні правила, на яких триматиметься вся подальша робота.
+Порядок ратифікації вже визначено в D-017. Перед початком нової великої філософської теми потрібно підтвердити мінімальний процедурний каркас.
 
 Після процедурної ратифікації рекомендована перша змістовна сесія:
 
