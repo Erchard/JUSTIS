@@ -29,10 +29,11 @@
 Читайте:
 
 1. `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`
-2. `templates/deliberation-protocol.md`
-3. `DECISIONS.md`
-4. `protocols/RATIFICATION_REGISTER.md`
-5. останні повні протоколи в `protocols/`
+2. `PROJECT_PRINCIPLES_AUDIT.md`
+3. `templates/deliberation-protocol.md`
+4. `DECISIONS.md`
+5. `protocols/RATIFICATION_REGISTER.md`
+6. останні повні протоколи в `protocols/`
 
 Ключове питання: чи справді рішення має аргументи, заперечення, відповіді, відкриті незгоди й умови перегляду?
 
