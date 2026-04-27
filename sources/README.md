@@ -12,3 +12,11 @@
 Для нового джерела використовуйте шаблон:
 
 `templates/source-note.md`
+
+## Поточні нотатки
+
+- `sources/kant-groundwork.md`
+- `sources/mill-on-liberty-utilitarianism.md`
+- `sources/rawls-theory-of-justice.md`
+- `sources/nussbaum-capabilities.md`
+- `sources/arendt-rights-totalitarianism.md`
