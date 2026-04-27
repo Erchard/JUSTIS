@@ -17,3 +17,7 @@ La fuerza por sí misma no crea derecho.
 ### Ley IV. Casos Semejantes
 
 Los casos moralmente relevantes y semejantes deben ser evaluados de modo semejante; un trato diferente requiere una razón públicamente justificada y moralmente relevante.
+
+### Ley V. Debilidad
+
+La debilidad o la incapacidad de defenderse no disminuye el peso moral de una persona.

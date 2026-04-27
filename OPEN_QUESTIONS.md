@@ -41,7 +41,7 @@
 | Q-002 | P0 | codex_done | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
 | Q-003 | P0 | codex_done | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-003_equal-cases-consistency.md`, `arguments/axioms/Q-003_equal-cases-consistency.md` |
 | Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
-| Q-005 | P0 | opened | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
+| Q-005 | P0 | codex_done | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-005_moral-weight-of-the-weak.md`, `arguments/axioms/Q-005_moral-weight-of-the-weak.md` |
 | Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-007 | P0 | opened | Чи має моральне правило бути здатним до універсалізації? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-008 | P0 | opened | Чи існує справедливість вище позитивного закону? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
@@ -136,10 +136,10 @@
 
 Рекомендований порядок денний наступної сесії:
 
-1. Q-005: Чи має слабший моральну вагу, незалежну від своєї сили?
-2. Перевірити, чи Закони 1-4 потребують короткого синхронізаційного коментаря про взаємозв'язок страждання, гідності, сили і рівності випадків.
-3. Якщо під час Q-005 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
+1. Q-006: Чи може справедливість існувати без правди?
+2. Перевірити, чи Lex I-V потребують короткого синхронізаційного коментаря про взаємозв'язок страждання, гідності, сили, рівності випадків і слабкості.
+3. Якщо під час Q-006 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
 
 Причина:
 
-Q-001, Q-002, Q-003 і Q-004 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-005, бо він прямо продовжує Закон 3: якщо сила сама по собі не створює права, треба перевірити моральну вагу слабшого незалежно від сили.
+Q-001, Q-002, Q-003, Q-004 і Q-005 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-006, бо без правди неможливо надійно встановлювати страждання, гідність, зловживання силою, релевантну подібність випадків або становище слабшого.

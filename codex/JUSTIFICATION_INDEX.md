@@ -29,3 +29,10 @@
 - Дерево аргументів: `arguments/axioms/Q-003_equal-cases-consistency.md`
 - Дослідження: `research/axioms/Q-003_equal-cases-consistency.md`
 - Розгорнутий запис: `codex/LAWS.md`
+
+## Lex V. Слабкість
+
+- Протокол: `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`
+- Дерево аргументів: `arguments/axioms/Q-005_moral-weight-of-the-weak.md`
+- Дослідження: `research/axioms/Q-005_moral-weight-of-the-weak.md`
+- Розгорнутий запис: `codex/LAWS.md`

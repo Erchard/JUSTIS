@@ -17,3 +17,7 @@ Vis per se ius non creat.
 ### Lex IV. De Casibus Similibus
 
 Casus moraliter relevantes similes similiter aestimandi sunt; tractatio diversa rationem publice iustificatam et moraliter relevantem requirit.
+
+### Lex V. De Infirmitate
+
+Infirmitas vel impotentia se defendendi pondus morale personae non minuit.
