@@ -38,9 +38,9 @@
 | ID | Пріоритет | Статус | Питання | Тип | Пов'язані документи |
 | --- | --- | --- | --- | --- | --- |
 | Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
-| Q-002 | P0 | in_research | Чи має людина гідність, яку не можна звести до користі? | аксіома | `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
+| Q-002 | P0 | in_research | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/2026-04-27_session-001-status-and-continuation.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
 | Q-003 | P0 | opened | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
-| Q-004 | P0 | in_research | Чи може сила сама по собі створювати право? | аксіома | `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
+| Q-004 | P0 | in_research | Чи може сила сама по собі створювати право? | аксіома | `protocols/2026-04-27_session-001-status-and-continuation.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
 | Q-005 | P0 | opened | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-007 | P0 | opened | Чи має моральне правило бути здатним до універсалізації? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
