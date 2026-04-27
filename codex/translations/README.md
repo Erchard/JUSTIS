@@ -9,6 +9,7 @@
 - `UNIVERSAL_JUSTICE_CODE.zh-Hans.md` - мандаринська китайська, спрощене письмо;
 - `UNIVERSAL_JUSTICE_CODE.hi.md` - хінді;
 - `UNIVERSAL_JUSTICE_CODE.es.md` - іспанська;
-- `UNIVERSAL_JUSTICE_CODE.ar.md` - арабська.
+- `UNIVERSAL_JUSTICE_CODE.ar.md` - арабська;
+- `UNIVERSAL_JUSTICE_CODE.he.md` - іврит.
 
 Латинський текст має пріоритет у разі розбіжностей.

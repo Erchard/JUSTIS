@@ -162,6 +162,7 @@ def check_codex_translations(errors: list[str]) -> None:
         "UNIVERSAL_JUSTICE_CODE.hi.md",
         "UNIVERSAL_JUSTICE_CODE.es.md",
         "UNIVERSAL_JUSTICE_CODE.ar.md",
+        "UNIVERSAL_JUSTICE_CODE.he.md",
     }
     actual = {
         path.name

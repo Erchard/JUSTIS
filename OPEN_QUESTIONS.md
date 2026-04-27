@@ -108,6 +108,7 @@
 | Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/organizational/membership/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-070 | P1 | protocol_done | Чим проект може бути корисним і як залучити більше людей та нейромережевих агентів? | стратегія участі | `protocols/organizational/outreach/2026-04-27_project-utility-and-participation.md`, `CONTRIBUTING.md`, `AGENTS.md`, `specifications/OUTREACH_AND_PARTICIPATION.md` |
 | Q-071 | P1 | opened | Як тестувати Кодекс справедливості на реальних складних морально-правових кейсах? | методологічне питання | `CASES.md`, `cases/README.md`, `specifications/CASE_TESTING_METHODOLOGY.md`, `templates/case-test.md` |
+| Q-072 | P2 | protocol_done | Чи потрібно додати Людвіга фон Мізеса і Фрідріха фон Гаєка до Небесного парламенту? | склад парламенту | `protocols/organizational/membership/2026-04-27_membership-expansion-austrian-school.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 
 ## Правило додавання нових питань
 

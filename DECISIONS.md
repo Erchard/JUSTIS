@@ -59,6 +59,7 @@
 | D-027 | 2026-04-27 | Закон 3: Сила і право | Третій запис Кодексу: сила сама по собі не створює права. | consensus_limitatus | deliberatio_plena | `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md` |
 | D-028 | 2026-04-27 | Закон 4: Однакові випадки | Четвертий запис Кодексу: релевантно однакові випадки мають оцінюватися однаково; різне ставлення потребує публічно виправданої морально релевантної підстави. | consensus_limitatus | deliberatio_plena | `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md` |
 | D-029 | 2026-04-27 | Закон 5: Слабкість | П'ятий запис Кодексу: слабкість або нездатність захистити себе не зменшує моральної ваги особи. | consensus_limitatus | deliberatio_plena | `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md` |
+| D-030 | 2026-04-27 | Четверте розширення парламенту | Додано Людвіга фон Мізеса і Фрідріха фон Гаєка як тематичних членів для тем власності, ринку, свободи, знання, державного примусу, планування і непередбачених наслідків політики. Поточний склад - 62 члени. | consensus_practicus | deliberatio_plena | `protocols/organizational/membership/2026-04-27_membership-expansion-austrian-school.md` |
 
 ## Правило оновлення
 
