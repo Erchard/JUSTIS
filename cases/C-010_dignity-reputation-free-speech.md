@@ -1,4 +1,4 @@
-# Кейс-тест: C-010 Честь, гідність і свобода слова
+﻿# Кейс-тест: C-010 Честь, гідність і свобода слова
 
 ```yaml
 id: casus.C-010
@@ -79,5 +79,5 @@ status_examinationis: preliminary_test
 
 - `CASES.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
+- `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
 - `OPEN_QUESTIONS.md`

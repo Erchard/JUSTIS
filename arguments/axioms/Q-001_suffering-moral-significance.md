@@ -1,4 +1,4 @@
-# Дерево аргументів: Q-001 Моральне значення страждання
+﻿# Дерево аргументів: Q-001 Моральне значення страждання
 
 ## Теза
 
@@ -24,7 +24,7 @@ typus: decisio
 status: consensus_limitatus
 formula: "Страждання є морально значущим фактом: його не можна ігнорувати, нормалізувати або заподіювати без достатнього виправдання."
 protocola:
-  - "protocols/2026-04-27_Q-001_suffering-moral-significance.md"
+  - "protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
   - "codex/LAWS.md"

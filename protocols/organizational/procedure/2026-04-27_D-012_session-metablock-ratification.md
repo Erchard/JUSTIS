@@ -1,4 +1,4 @@
-# Протокол дискусії: ратифікація D-012, метаблок сесії
+﻿# Протокол дискусії: ратифікація D-012, метаблок сесії
 
 ```yaml
 id: deliberatio.2026-04-27.D-012.ratificatio
@@ -235,8 +235,8 @@ D-012 потрібно переглянути, якщо:
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_session-meta-review-rule.md`
-- `protocols/2026-04-27_D-006_session-regulation-ratification.md`
+- `protocols/organizational/procedure/2026-04-26_session-meta-review-rule.md`
+- `protocols/organizational/procedure/2026-04-27_D-006_session-regulation-ratification.md`
 - `protocols/RATIFICATION_REGISTER.md`
 - `DECISIONS.md`
 - `OPEN_QUESTIONS.md`

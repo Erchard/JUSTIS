@@ -1,4 +1,4 @@
-# Кейс-тест: C-009 Межі необхідної оборони
+﻿# Кейс-тест: C-009 Межі необхідної оборони
 
 ```yaml
 id: casus.C-009
@@ -81,5 +81,5 @@ status_examinationis: preliminary_test
 
 - `CASES.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `protocols/2026-04-27_Q-004_force-and-right.md`
+- `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`
 - `arguments/axioms/Q-004_force-and-right.md`

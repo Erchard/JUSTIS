@@ -1,4 +1,4 @@
-# Протокол: оптимальна кількість членів Небесного парламенту
+﻿# Протокол: оптимальна кількість членів Небесного парламенту
 
 ## Дата
 
@@ -203,5 +203,5 @@
 ## Пов'язані документи
 
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`
-- `protocols/2026-04-26_membership-renewal-rule.md`
-- `protocols/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/membership/2026-04-26_membership-renewal-rule.md`
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`

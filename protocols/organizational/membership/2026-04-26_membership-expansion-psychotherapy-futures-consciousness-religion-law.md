@@ -1,4 +1,4 @@
-# Протокол дискусії: друге розширення Небесного парламенту
+﻿# Протокол дискусії: друге розширення Небесного парламенту
 
 ```yaml
 id: deliberatio.2026-04-26.membership_expansion_002
@@ -368,7 +368,7 @@ dissentiones:
 ## Пов'язані документи
 
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`
-- `protocols/2026-04-26_membership-renewal-rule.md`
-- `protocols/2026-04-26_optimal-parliament-size.md`
+- `protocols/organizational/membership/2026-04-26_membership-renewal-rule.md`
+- `protocols/organizational/membership/2026-04-26_optimal-parliament-size.md`
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`

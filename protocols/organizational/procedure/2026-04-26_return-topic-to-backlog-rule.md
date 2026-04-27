@@ -1,4 +1,4 @@
-# Протокол: повернення теми в беклог через фундаментальніше питання
+﻿# Протокол: повернення теми в беклог через фундаментальніше питання
 
 ## Дата
 
@@ -79,4 +79,4 @@
 
 - `OPEN_QUESTIONS.md`
 - `specifications/RESEARCH_METHODOLOGY.md`
-- `protocols/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`

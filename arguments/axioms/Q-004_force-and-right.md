@@ -1,4 +1,4 @@
-# Дерево аргументів: Q-004 Сила і право
+﻿# Дерево аргументів: Q-004 Сила і право
 
 ```yaml
 id: argumenta_arbor.Q-004
@@ -8,7 +8,7 @@ quaestio: "Чи може сила сама по собі створювати п
 thesis_principalis: "Сила сама по собі не створює права."
 fides_fontis: reconstruction
 protocola:
-  - "protocols/2026-04-27_Q-004_force-and-right.md"
+  - "protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md"
 codex:
   - "codex/UNIVERSAL_JUSTICE_CODE.md"
   - "codex/LAWS.md"

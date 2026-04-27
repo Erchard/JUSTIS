@@ -1,4 +1,4 @@
-# Q-002: Чи має людина гідність, яку не можна звести до користі?
+﻿# Q-002: Чи має людина гідність, яку не можна звести до користі?
 
 ```yaml
 id: Q-002
@@ -8,8 +8,8 @@ titulus: "Гідність людини"
 formula: "Людину не можна зводити до користі, ресурсу, ролі або засобу для чужої мети."
 fides_fontis: reconstruction
 protocola:
-  - "protocols/2026-04-26_session-001_initial-axioms.md"
-  - "protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md"
+  - "protocols/moral/axioms/2026-04-26_session-001_initial-axioms.md"
+  - "protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md"
 argumenta_arbor:
   - "arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md"
 codex:

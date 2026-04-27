@@ -1,4 +1,4 @@
-# Q-004: Чи може сила сама по собі створювати право?
+﻿# Q-004: Чи може сила сама по собі створювати право?
 
 ```yaml
 id: Q-004
@@ -8,8 +8,8 @@ titulus: "Сила і право"
 formula: "Сила сама по собі не створює права."
 fides_fontis: reconstruction
 protocola:
-  - "protocols/2026-04-26_session-001_initial-axioms.md"
-  - "protocols/2026-04-27_Q-004_force-and-right.md"
+  - "protocols/moral/axioms/2026-04-26_session-001_initial-axioms.md"
+  - "protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md"
 argumenta_arbor:
   - "arguments/axioms/Q-004_force-and-right.md"
 codex:

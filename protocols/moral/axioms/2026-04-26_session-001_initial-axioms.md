@@ -1,4 +1,4 @@
-# Сесія Небесного парламенту 001: початкові аксіоми
+﻿# Сесія Небесного парламенту 001: початкові аксіоми
 
 ```yaml
 id: sessio.2026-04-26.001
@@ -153,9 +153,9 @@ Q-001 завершено:
 
 - `OPEN_QUESTIONS.md`
 - `specifications/RESEARCH_METHODOLOGY.md`
-- `protocols/2026-04-26_session-agenda-regulation.md`
-- `protocols/2026-04-26_optimal-parliament-size.md`
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/membership/2026-04-26_optimal-parliament-size.md`
 - `specifications/JUSTICE_MARKUP_LANGUAGE.md`
-- `protocols/2026-04-27_Q-001_suffering-moral-significance.md`
-- `protocols/2026-04-27_session-001-status-and-continuation.md`
+- `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`
+- `protocols/moral/axioms/2026-04-27_session-001-status-and-continuation.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`

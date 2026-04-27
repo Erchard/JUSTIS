@@ -1,4 +1,4 @@
-# Кейс-тест: C-001 Гідність і заборона нелюдського поводження
+﻿# Кейс-тест: C-001 Гідність і заборона нелюдського поводження
 
 ```yaml
 id: casus.C-001
@@ -84,4 +84,4 @@ status_examinationis: preliminary_test
 - `CASES.md`
 - `specifications/CASE_TESTING_METHODOLOGY.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
+- `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`

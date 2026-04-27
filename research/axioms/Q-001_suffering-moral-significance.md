@@ -1,4 +1,4 @@
-# Q-001: Чи має страждання моральне значення?
+﻿# Q-001: Чи має страждання моральне значення?
 
 ```yaml
 id: Q-001
@@ -8,8 +8,8 @@ titulus: "Моральне значення страждання"
 formula: "Страждання має моральне значення."
 fides_fontis: reconstruction
 protocola:
-  - "protocols/2026-04-26_session-001_initial-axioms.md"
-  - "protocols/2026-04-27_Q-001_suffering-moral-significance.md"
+  - "protocols/moral/axioms/2026-04-26_session-001_initial-axioms.md"
+  - "protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md"
 argumenta_arbor:
   - "arguments/axioms/Q-001_suffering-moral-significance.md"
 codex:

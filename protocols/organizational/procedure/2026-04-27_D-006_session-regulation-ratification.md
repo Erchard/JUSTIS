@@ -1,4 +1,4 @@
-# Протокол дискусії: ратифікація D-006, регламент сесій
+﻿# Протокол дискусії: ратифікація D-006, регламент сесій
 
 ```yaml
 id: deliberatio.2026-04-27.D-006.ratificatio
@@ -236,7 +236,7 @@ D-006 потрібно переглянути, якщо:
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`
 - `protocols/RATIFICATION_REGISTER.md`
 - `DECISIONS.md`
 - `OPEN_QUESTIONS.md`

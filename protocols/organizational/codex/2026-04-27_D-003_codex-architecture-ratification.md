@@ -1,4 +1,4 @@
-# Протокол дискусії: ратифікація D-003, архітектура Кодексу
+﻿# Протокол дискусії: ратифікація D-003, архітектура Кодексу
 
 ```yaml
 id: deliberatio.2026-04-27.D-003.ratificatio
@@ -268,7 +268,7 @@ D-003 потрібно переглянути, якщо:
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_codex_document_architecture.md`
+- `protocols/organizational/codex/2026-04-26_codex_document_architecture.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
 - `codex/LAWS.md`
 - `arguments/README.md`

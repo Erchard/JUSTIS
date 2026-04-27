@@ -1,4 +1,4 @@
-# Протокол: метаблок на кожній сесії
+﻿# Протокол: метаблок на кожній сесії
 
 ## Дата
 
@@ -84,4 +84,4 @@
 
 - `specifications/RESEARCH_METHODOLOGY.md`
 - `templates/parliament-session.md`
-- `protocols/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`

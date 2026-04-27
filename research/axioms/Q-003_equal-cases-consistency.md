@@ -1,4 +1,4 @@
-# Q-003: Чи можуть однакові випадки оцінюватися по-різному без несправедливості?
+﻿# Q-003: Чи можуть однакові випадки оцінюватися по-різному без несправедливості?
 
 ```yaml
 id: Q-003
@@ -8,7 +8,7 @@ titulus: "Однакові випадки і послідовність"
 formula: "Релевантно однакові випадки мають оцінюватися однаково; різне ставлення потребує публічно виправданої морально релевантної підстави."
 fides_fontis: reconstruction
 protocola:
-  - "protocols/2026-04-27_Q-003_equal-cases-consistency.md"
+  - "protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md"
 argumenta_arbor:
   - "arguments/axioms/Q-003_equal-cases-consistency.md"
 codex:

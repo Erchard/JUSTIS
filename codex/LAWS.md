@@ -1,4 +1,4 @@
-# Закони Кодексу справедливості
+﻿# Закони Кодексу справедливості
 
 ## Закон 1. Страждання
 
@@ -86,7 +86,7 @@ revisio_condiciones:
   - "Якщо майбутні дискусії про тварин або штучний інтелект вимагатимуть уточнити, чия здатність страждати має моральне значення."
 
 protocola:
-  - "protocols/2026-04-27_Q-001_suffering-moral-significance.md"
+  - "protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md"
 
 argumenta_arbor:
   - "arguments/axioms/Q-001_suffering-moral-significance.md"
@@ -122,7 +122,7 @@ argumenta_arbor:
 
 ## Пов'язані протоколи
 
-- `protocols/2026-04-27_Q-001_suffering-moral-significance.md`
+- `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`
 
 ## Закон 2. Гідність
 
@@ -228,7 +228,7 @@ revisio_condiciones:
   - "Якщо аналіз праці, власності й нерівності покаже, що формула недостатньо бачить матеріальне знеособлення."
 
 protocola:
-  - "protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md"
+  - "protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md"
 
 argumenta_arbor:
   - "arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md"
@@ -268,7 +268,7 @@ argumenta_arbor:
 
 ## Пов'язані протоколи
 
-- `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
+- `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
 
 ## Закон 3. Сила і право
 
@@ -376,7 +376,7 @@ revisio_condiciones:
   - "Якщо застосування принципу почне блокувати справедливий захист слабких."
 
 protocola:
-  - "protocols/2026-04-27_Q-004_force-and-right.md"
+  - "protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md"
 
 argumenta_arbor:
   - "arguments/axioms/Q-004_force-and-right.md"
@@ -416,7 +416,7 @@ argumenta_arbor:
 
 ## Пов'язані протоколи
 
-- `protocols/2026-04-27_Q-004_force-and-right.md`
+- `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`
 
 ## Закон 4. Однакові випадки
 
@@ -522,7 +522,7 @@ revisio_condiciones:
   - "Якщо буде знайдено кращий тест для пропорційної, а не механічної рівності."
 
 protocola:
-  - "protocols/2026-04-27_Q-003_equal-cases-consistency.md"
+  - "protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md"
 
 argumenta_arbor:
   - "arguments/axioms/Q-003_equal-cases-consistency.md"
@@ -562,4 +562,4 @@ argumenta_arbor:
 
 ## Пов'язані протоколи
 
-- `protocols/2026-04-27_Q-003_equal-cases-consistency.md`
+- `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`

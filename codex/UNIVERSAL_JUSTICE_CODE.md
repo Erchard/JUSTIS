@@ -1,4 +1,4 @@
-# Кодекс справедливості
+﻿# Кодекс справедливості
 
 ## Статус
 
@@ -16,7 +16,7 @@
 
 Повне обґрунтування:
 
-- `protocols/2026-04-27_Q-001_suffering-moral-significance.md`
+- `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`
 - `arguments/axioms/Q-001_suffering-moral-significance.md`
 - `research/axioms/Q-001_suffering-moral-significance.md`
 
@@ -28,7 +28,7 @@
 
 Повне обґрунтування:
 
-- `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
+- `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
 - `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 - `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 
@@ -40,7 +40,7 @@
 
 Повне обґрунтування:
 
-- `protocols/2026-04-27_Q-004_force-and-right.md`
+- `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`
 - `arguments/axioms/Q-004_force-and-right.md`
 - `research/axioms/Q-004_force-and-right.md`
 
@@ -52,6 +52,6 @@
 
 Повне обґрунтування:
 
-- `protocols/2026-04-27_Q-003_equal-cases-consistency.md`
+- `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`
 - `arguments/axioms/Q-003_equal-cases-consistency.md`
 - `research/axioms/Q-003_equal-cases-consistency.md`

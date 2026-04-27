@@ -1,4 +1,4 @@
-# Протокол дискусії: ратифікація D-004, правило консенсусу
+﻿# Протокол дискусії: ратифікація D-004, правило консенсусу
 
 ```yaml
 id: deliberatio.2026-04-27.D-004.ratificatio
@@ -278,8 +278,8 @@ D-004 потрібно переглянути, якщо:
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_consensus-not-majority-rule.md`
-- `protocols/2026-04-27_session-002_ratification-agenda.md`
+- `protocols/organizational/procedure/2026-04-26_consensus-not-majority-rule.md`
+- `protocols/organizational/procedure/2026-04-27_session-002_ratification-agenda.md`
 - `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`
 - `DECISIONS.md`
 - `protocols/RATIFICATION_REGISTER.md`

@@ -1,4 +1,4 @@
-# Протокол: консенсус замість диктатури більшості
+﻿# Протокол: консенсус замість диктатури більшості
 
 ## Дата
 
@@ -149,5 +149,5 @@
 ## Пов'язані документи
 
 - `specifications/RESEARCH_METHODOLOGY.md`
-- `protocols/2026-04-26_codex_document_architecture.md`
+- `protocols/organizational/codex/2026-04-26_codex_document_architecture.md`
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`

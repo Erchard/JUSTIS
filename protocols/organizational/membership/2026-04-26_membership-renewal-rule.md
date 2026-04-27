@@ -1,4 +1,4 @@
-# Протокол: оновлення складу Небесного парламенту
+﻿# Протокол: оновлення складу Небесного парламенту
 
 ## Дата
 
@@ -214,4 +214,4 @@ nota: "Коротке пояснення"
 
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`
 - `OPEN_QUESTIONS.md`
-- `protocols/2026-04-26_heavenly-parliament-membership-expansion.md`
+- `protocols/organizational/membership/2026-04-26_heavenly-parliament-membership-expansion.md`

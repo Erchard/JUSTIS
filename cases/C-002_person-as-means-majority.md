@@ -1,4 +1,4 @@
-# Кейс-тест: C-002 Використання людини як засобу заради більшості
+﻿# Кейс-тест: C-002 Використання людини як засобу заради більшості
 
 ```yaml
 id: casus.C-002
@@ -87,4 +87,4 @@ status_examinationis: preliminary_test
 - `CASES.md`
 - `codex/LAWS.md`
 - `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
-- `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
+- `protocols/moral/axioms/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`

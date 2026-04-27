@@ -1,4 +1,4 @@
-# Кейс-тест: C-011 Однакові випадки і різне ставлення
+﻿# Кейс-тест: C-011 Однакові випадки і різне ставлення
 
 ```yaml
 id: casus.C-011
@@ -97,5 +97,5 @@ status_examinationis: preliminary_test
 
 - `CASES.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
-- `protocols/2026-04-27_Q-003_equal-cases-consistency.md`
+- `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`
 - `arguments/axioms/Q-003_equal-cases-consistency.md`

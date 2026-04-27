@@ -1,4 +1,4 @@
-# Реєстр Небесного парламенту
+﻿# Реєстр Небесного парламенту
 
 ## Проект: Універсальний кодекс справедливості
 
@@ -221,10 +221,10 @@
 
 ## 7. Пов'язані документи
 
-- `protocols/2026-04-26_invited-authorities.md`
-- `protocols/2026-04-26_membership-renewal-rule.md`
-- `protocols/2026-04-26_optimal-parliament-size.md`
-- `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`
+- `protocols/organizational/membership/2026-04-26_invited-authorities.md`
+- `protocols/organizational/membership/2026-04-26_membership-renewal-rule.md`
+- `protocols/organizational/membership/2026-04-26_optimal-parliament-size.md`
+- `protocols/organizational/membership/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`
 - `specifications/HEAVENLY_PARLIAMENT_NAME.md`
 - `specifications/AUTHORITATIVE_SOURCES.md`
 - `specifications/METHODOLOGY_AUTHOR_CRITIQUES.md`

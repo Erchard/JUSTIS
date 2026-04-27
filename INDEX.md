@@ -19,7 +19,7 @@
 1. `codex/UNIVERSAL_JUSTICE_CODE.md`
 2. `codex/LAWS.md`
 3. `arguments/axioms/`
-4. `protocols/`
+4. `protocols/moral/`
 5. `cases/`
 
 Найцінніший внесок: сильне заперечення, граничний кейс або виявлена суперечність між Кодексом і його обґрунтуванням.
@@ -33,7 +33,7 @@
 3. `templates/deliberation-protocol.md`
 4. `DECISIONS.md`
 5. `protocols/RATIFICATION_REGISTER.md`
-6. останні повні протоколи в `protocols/`
+6. останні повні протоколи в `protocols/moral/` і `protocols/organizational/`
 
 Ключове питання: чи справді рішення має аргументи, заперечення, відповіді, відкриті незгоди й умови перегляду?
 

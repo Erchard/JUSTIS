@@ -1,4 +1,4 @@
-# Протокол: статус і продовження Сесії 001
+﻿# Протокол: статус і продовження Сесії 001
 
 ```yaml
 id: sessio.2026-04-27.001.status
@@ -136,8 +136,8 @@ dissentiones: []
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_session-001_initial-axioms.md`
-- `protocols/2026-04-27_Q-001_suffering-moral-significance.md`
+- `protocols/moral/axioms/2026-04-26_session-001_initial-axioms.md`
+- `protocols/moral/axioms/2026-04-27_Q-001_suffering-moral-significance.md`
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`
 - `codex/UNIVERSAL_JUSTICE_CODE.md`

@@ -1,4 +1,4 @@
-# Протокол дискусії: ратифікація D-013, правило формалізації через DSL
+﻿# Протокол дискусії: ратифікація D-013, правило формалізації через DSL
 
 ```yaml
 id: deliberatio.2026-04-27.D-013.ratificatio
@@ -258,7 +258,7 @@ D-013 потрібно переглянути, якщо:
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_dsl-formalization-rule.md`
+- `protocols/organizational/procedure/2026-04-26_dsl-formalization-rule.md`
 - `specifications/JUSTICE_MARKUP_LANGUAGE.md`
 - `templates/deliberation-protocol.md`
 - `AGENTS.md`

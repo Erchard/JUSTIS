@@ -1,4 +1,4 @@
-# Протокол: розширення складу Небесного парламенту
+﻿# Протокол: розширення складу Небесного парламенту
 
 ## Дата
 
@@ -69,5 +69,5 @@
 
 ## Пов'язані документи
 
-- `protocols/2026-04-26_invited-authorities.md`
+- `protocols/organizational/membership/2026-04-26_invited-authorities.md`
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`

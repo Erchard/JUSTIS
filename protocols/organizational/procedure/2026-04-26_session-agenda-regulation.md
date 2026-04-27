@@ -1,4 +1,4 @@
-# Протокол: регламент засідань Небесного парламенту
+﻿# Протокол: регламент засідань Небесного парламенту
 
 ## Дата
 
@@ -131,4 +131,4 @@
 
 - `specifications/RESEARCH_METHODOLOGY.md`
 - `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`
-- `protocols/2026-04-26_consensus-not-majority-rule.md`
+- `protocols/organizational/procedure/2026-04-26_consensus-not-majority-rule.md`
