@@ -32,7 +32,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | documentum_provisorium; ratificatio_requiritur | `specifications/HEAVENLY_PARLIAMENT_NAME.md` |
 | D-002 | 2026-04-26 | Розширення складу парламенту | Додано всіх запропонованих кандидатів; поточний склад тоді став 41 індивідуальний член. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_heavenly-parliament-membership-expansion.md` |
-| D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_codex_document_architecture.md` |
+| D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів; кожен пункт Кодексу має бути простежуваний до протоколу й дерева аргументів. Ратифіковано D-025. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-003_codex-architecture-ratification.md` |
 | D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. Ратифіковано D-020. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-004_consensus-rule-ratification.md` |
 | D-005 | 2026-04-26 | Justice Markup Language | Створено JML з латинськими ключами і робочою мовою для змісту. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/2026-04-26_justice-markup-language-latin.md` |
 | D-006 | 2026-04-26 | Регламент сесій | Кожна сесія починається з погодження порядку денного, меж розгляду, очікуваного результату та правила дії при появі глибшого питання. Ратифіковано D-023. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-006_session-regulation-ratification.md` |
@@ -54,6 +54,7 @@
 | D-022 | 2026-04-27 | Ратифікація D-013 | Ратифіковано правило формалізації через DSL: структурні елементи дискусій, рішень, законів і дерев аргументів мають бути формалізовані, якщо це підвищує перевірюваність без втрати змісту. | consensus_practicus | deliberatio_plena | `protocols/2026-04-27_D-013_dsl-formalization-ratification.md` |
 | D-023 | 2026-04-27 | Ратифікація D-006 | Ратифіковано регламент сесій: кожна сесія має починатися з погодження кількості питань, переліку, послідовності, типу, очікуваного результату, меж розгляду, критерію завершення і правила дії при появі глибшого питання. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-006_session-regulation-ratification.md` |
 | D-024 | 2026-04-27 | Ратифікація D-012 | Ратифіковано правило метаблоку: кожна сесія має завершуватися короткою самоперевіркою методу і процесу з явним результатом або дією. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-012_session-metablock-ratification.md` |
+| D-025 | 2026-04-27 | Ратифікація D-003 | Ратифіковано архітектуру Кодексу: короткий Кодекс, коментарі й дерева аргументів; мінімум для нового закону - короткий пункт, JML-запис, повний протокол, дерево аргументів і умови перегляду. | consensus_plenus | deliberatio_plena | `protocols/2026-04-27_D-003_codex-architecture-ratification.md` |
 
 ## Правило оновлення
 
