@@ -103,8 +103,9 @@
 | Q-064 | P1 | protocol_done | Чи має кожна сесія містити метаблок для перегляду методики і процесу? | методологічне питання | `protocols/2026-04-26_session-meta-review-rule.md` |
 | Q-065 | P1 | protocol_done | Що саме потрібно формалізувати через DSL, щоб уникнути неперевірюваних резюме? | методологічне питання | `protocols/2026-04-26_dsl-formalization-rule.md`, `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
 | Q-066 | P1 | protocol_done | Як перетворити попередні резюме-протоколи на повні дискусійні протоколи або позначити їх як provisional? | методологічне питання | `protocols/2026-04-26_procedural-integrity-audit.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`, `DECISIONS.md` |
-| Q-067 | P2 | opened | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/2026-04-26_membership-expansion-psychotherapy-futures-consciousness-religion-law.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
+| Q-067 | P2 | protocol_done | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-068 | P0 | ratification_required | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
+| Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 
 ## Правило додавання нових питань
 
