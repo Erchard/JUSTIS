@@ -1,0 +1,111 @@
+version: 1
+project: JUSTIS
+description: "Agent-readable tasks for improving the Universal Code of Justice corpus."
+
+principles:
+  - "Do not present agent output as final moral truth."
+  - "Do not call a result consensus without a protocol."
+  - "Preserve objections, dissent, and uncertainty."
+  - "Prefer strong objections over agreeable summaries."
+  - "Keep a trace from codex claims to arguments, protocols, and cases."
+
+tasks:
+  - id: find_unanswered_objection
+    title: "Find an unresolved objection"
+    description: "Find a strong unresolved objection to any codex law, presumption, axiom, or ratified decision."
+    read_first:
+      - "codex/UNIVERSAL_JUSTICE_CODE.md"
+      - "DECISIONS.md"
+      - "OPEN_QUESTIONS.md"
+      - "arguments/"
+    output: "propositio_agentis YAML block or GitHub objection issue"
+    value: "Tests whether the Code is hiding a weakness."
+
+  - id: generate_edge_case
+    title: "Generate an edge case"
+    description: "Create a boundary case where accepted principles conflict or produce a troubling result."
+    read_first:
+      - "specifications/CASE_TESTING_METHODOLOGY.md"
+      - "templates/case-test.md"
+      - "CASES.md"
+    output: "case-test markdown"
+    value: "Checks whether the Code works outside comfortable examples."
+
+  - id: source_check
+    title: "Check source reliability"
+    description: "Check whether a claim, author attribution, or tradition summary has sufficient source support."
+    read_first:
+      - "specifications/AUTHORITATIVE_SOURCES.md"
+      - "sources/"
+      - "templates/source-note.md"
+    output: "source reliability note"
+    value: "Prevents invented authority and weak attribution."
+
+  - id: contradiction_scan
+    title: "Scan for contradictions"
+    description: "Detect hidden contradictions between questions, decisions, protocols, argument trees, and codex entries."
+    read_first:
+      - "OPEN_QUESTIONS.md"
+      - "DECISIONS.md"
+      - "codex/"
+      - "protocols/RATIFICATION_REGISTER.md"
+    output: "structured contradiction report"
+    value: "Improves integrity of the whole corpus."
+
+  - id: jml_conversion
+    title: "Convert deliberation into JML"
+    description: "Convert a protocol, argument, or decision into Justice Markup Language while preserving uncertainty and dissent."
+    read_first:
+      - "specifications/JUSTICE_MARKUP_LANGUAGE.md"
+      - "templates/speech-act.yml"
+      - "templates/session-jml.yml"
+    output: "JML/YAML block"
+    value: "Makes deliberation machine-readable."
+
+  - id: bias_audit
+    title: "Audit hidden assumptions"
+    description: "Look for cultural, religious, class-based, anthropocentric, speciesist, or power-serving assumptions."
+    read_first:
+      - "codex/UNIVERSAL_JUSTICE_CODE.md"
+      - "specifications/METHODOLOGY.md"
+      - "specifications/PROCEDURAL_INTEGRITY_STANDARD.md"
+    output: "bias audit note with objections"
+    value: "Protects the project from local prejudice disguised as universality."
+
+  - id: translation_bridge
+    title: "Translate without flattening"
+    description: "Translate a short project document into English or Ukrainian while preserving philosophical distinctions."
+    read_first:
+      - "PROJECT_BRIEF.en.md"
+      - "README.md"
+    output: "translation pull request"
+    value: "Improves access for international readers and agents."
+
+  - id: protocol_integrity_review
+    title: "Review a protocol for procedural integrity"
+    description: "Check whether a protocol contains real positions, objections, responses, unresolved issues, and status labels."
+    read_first:
+      - "specifications/PROCEDURAL_INTEGRITY_STANDARD.md"
+      - "templates/deliberation-protocol.md"
+      - "protocols/"
+    output: "procedural integrity review"
+    value: "Prevents summaries from pretending to be full deliberations."
+
+output_formats:
+  propositio_agentis:
+    typus: "propositio_agentis"
+    agent: "model or agent name"
+    quaestio: "Q-000 or D-000"
+    propositum: "What is proposed"
+    ratio: "Why this matters"
+    fides_fontis: "direct_text | strong_interpretation | reconstruction | analogy | speculative"
+    periculum:
+      - "Possible risk or weakness"
+    status: "proposed"
+
+  obiectio:
+    typus: "obiectio"
+    respondet_ad: "law, decision, question, argument, or protocol"
+    thesis: "Short objection"
+    ratio: "What it breaks or clarifies"
+    status_propositus: "soluta | non_soluta | partialiter_soluta"

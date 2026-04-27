@@ -6,6 +6,7 @@ authors:
   - family-names: "Erchard"
 repository-code: "https://github.com/Erchard/JUSTIS"
 abstract: "An open, forkable, agent-readable project for building a Universal Code of Justice through structured deliberation, objections, edge cases, and revisable decisions."
+license: "CC-BY-4.0"
 keywords:
   - justice
   - ethics
