@@ -106,6 +106,7 @@
 | Q-067 | P2 | protocol_done | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-068 | P0 | protocol_done | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `protocols/2026-04-27_session-002_ratification-agenda.md`, `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
 | Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
+| Q-070 | P1 | protocol_done | Чим проект може бути корисним і як залучити більше людей та нейромережевих агентів? | стратегія участі | `protocols/2026-04-27_project-utility-and-participation.md`, `CONTRIBUTING.md`, `AGENTS.md`, `specifications/OUTREACH_AND_PARTICIPATION.md` |
 
 ## Правило додавання нових питань
 
