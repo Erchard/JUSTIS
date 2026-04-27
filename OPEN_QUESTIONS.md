@@ -39,7 +39,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
 | Q-002 | P0 | codex_done | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
-| Q-003 | P0 | opened | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
+| Q-003 | P0 | codex_done | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `protocols/2026-04-27_Q-003_equal-cases-consistency.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-003_equal-cases-consistency.md`, `arguments/axioms/Q-003_equal-cases-consistency.md` |
 | Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
 | Q-005 | P0 | opened | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
@@ -136,10 +136,10 @@
 
 Рекомендований порядок денний наступної сесії:
 
-1. Q-003: Чи можуть однакові випадки оцінюватися по-різному без несправедливості?
-2. Перевірити, чи Закони 1-3 потребують короткого синхронізаційного коментаря про взаємозв'язок страждання, гідності й сили.
-3. Якщо під час Q-003 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
+1. Q-005: Чи має слабший моральну вагу, незалежну від своєї сили?
+2. Перевірити, чи Закони 1-4 потребують короткого синхронізаційного коментаря про взаємозв'язок страждання, гідності, сили і рівності випадків.
+3. Якщо під час Q-005 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
 
 Причина:
 
-Q-001, Q-002 і Q-004 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-003, бо він перевіряє рівність оцінки однакових випадків і може вплинути на всі три перші закони.
+Q-001, Q-002, Q-003 і Q-004 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-005, бо він прямо продовжує Закон 3: якщо сила сама по собі не створює права, треба перевірити моральну вагу слабшого незалежно від сили.

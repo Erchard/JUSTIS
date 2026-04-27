@@ -43,3 +43,15 @@
 - `protocols/2026-04-27_Q-004_force-and-right.md`
 - `arguments/axioms/Q-004_force-and-right.md`
 - `research/axioms/Q-004_force-and-right.md`
+
+### Закон 4. Однакові випадки
+
+> Релевантно однакові випадки мають оцінюватися однаково; різне ставлення потребує публічно виправданої морально релевантної підстави.
+
+Статус: `consensus_limitatus`.
+
+Повне обґрунтування:
+
+- `protocols/2026-04-27_Q-003_equal-cases-consistency.md`
+- `arguments/axioms/Q-003_equal-cases-consistency.md`
+- `research/axioms/Q-003_equal-cases-consistency.md`
