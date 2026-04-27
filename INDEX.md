@@ -8,7 +8,7 @@
 
 1. `README.md` - що таке проект.
 2. `PROJECT_BRIEF.en.md` - короткий англомовний вступ.
-3. `codex/UNIVERSAL_JUSTICE_CODE.md` - короткий поточний Кодекс.
+3. `codex/UNIVERSAL_JUSTICE_CODE.md` - латинський канонічний Кодекс.
 4. `OPEN_QUESTIONS.md` - що ще не вирішено.
 5. `GOOD_FIRST_CONTRIBUTIONS.md` - як долучитися без занурення в усю структуру.
 
@@ -20,10 +20,12 @@
 2. `codex/STATUS_INDEX.md`
 3. `codex/JUSTIFICATION_INDEX.md`
 4. `codex/TERMINOLOGY.md`
-5. `codex/LAWS.md`
-6. `arguments/axioms/`
-7. `protocols/moral/`
-8. `cases/`
+5. `codex/TRANSLATION_POLICY.md`
+6. `codex/translations/`
+7. `codex/LAWS.md`
+8. `arguments/axioms/`
+9. `protocols/moral/`
+10. `cases/`
 
 Найцінніший внесок: сильне заперечення, граничний кейс або виявлена суперечність між Кодексом і його обґрунтуванням.
 
@@ -75,12 +77,12 @@
 
 ## Поточні закони Кодексу
 
-1. Закон 1: Страждання.
-2. Закон 2: Гідність.
-3. Закон 3: Сила і право.
-4. Закон 4: Однакові випадки.
+1. Lex I: De Dolore.
+2. Lex II: De Dignitate.
+3. Lex III: De Vi et Iure.
+4. Lex IV: De Casibus Similibus.
 
-Статуси й обґрунтування не зберігаються у фінальному тексті Кодексу. Для цього є `codex/STATUS_INDEX.md` і `codex/JUSTIFICATION_INDEX.md`.
+Канонічний текст Кодексу зберігається латинською. Офіційні переклади є в `codex/translations/`. Статуси й обґрунтування не зберігаються у фінальному тексті Кодексу. Для цього є `codex/STATUS_INDEX.md` і `codex/JUSTIFICATION_INDEX.md`.
 
 ## Наступний змістовний напрям
 

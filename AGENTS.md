@@ -32,10 +32,12 @@
 - `GOOD_FIRST_CONTRIBUTIONS.md` - конкретні перші задачі.
 - `OPEN_QUESTIONS.md` - що ще потрібно розглянути.
 - `DECISIONS.md` - що вже вирішено.
-- `codex/UNIVERSAL_JUSTICE_CODE.md` - короткий Кодекс.
+- `codex/UNIVERSAL_JUSTICE_CODE.md` - латинський канонічний Кодекс.
 - `codex/STATUS_INDEX.md` - статуси законів.
 - `codex/JUSTIFICATION_INDEX.md` - індекс обґрунтувань.
 - `codex/TERMINOLOGY.md` - терміни Кодексу.
+- `codex/TRANSLATION_POLICY.md` - політика мов і перекладів.
+- `codex/translations/` - офіційні переклади.
 - `codex/LAWS.md` - розгорнуті записи законів.
 - `protocols/` - дискусії та рішення.
 - `arguments/` - дерева аргументів.

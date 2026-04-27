@@ -1,19 +1,19 @@
-# Кодекс справедливості
+# Codex Iustitiae
 
-## Базові закони
+## Leges Fundamentales
 
-### Закон 1. Страждання
+### Lex I. De Dolore
 
-Страждання не можна ігнорувати, нормалізувати або заподіювати без достатнього виправдання.
+Dolor neglegi, normalisari, aut sine ratione sufficienti inferri non debet.
 
-### Закон 2. Гідність
+### Lex II. De Dignitate
 
-Людину не можна зводити до користі, ресурсу, ролі або засобу для чужої мети.
+Persona humana ad utilitatem, rem, munus, aut instrumentum finis alieni reduci non debet.
 
-### Закон 3. Сила і право
+### Lex III. De Vi et Iure
 
-Сила сама по собі не створює права.
+Vis per se ius non creat.
 
-### Закон 4. Однакові випадки
+### Lex IV. De Casibus Similibus
 
-Релевантно однакові випадки мають оцінюватися однаково; різне ставлення потребує публічно виправданої морально релевантної підстави.
+Casus moraliter relevantes similes similiter aestimandi sunt; tractatio diversa rationem publice iustificatam et moraliter relevantem requirit.

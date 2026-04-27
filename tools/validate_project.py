@@ -138,19 +138,42 @@ def check_codex_traceability(errors: list[str]) -> None:
     codex = read_text(ROOT / "codex" / "UNIVERSAL_JUSTICE_CODE.md")
     justification_index = read_text(ROOT / "codex" / "JUSTIFICATION_INDEX.md")
     status_index = read_text(ROOT / "codex" / "STATUS_INDEX.md")
-    law_numbers = re.findall(r"### Закон (\d+)\.", codex)
+    law_numbers = re.findall(r"### Lex ([IVXLCDM]+)\.", codex)
     for number in law_numbers:
-        if f"Закон {number}" not in status_index:
-            fail(errors, f"Codex Law {number} missing status index entry")
-        section_pattern = re.compile(rf"## Закон {re.escape(number)}\..*?(?=## Закон \d+\.|\Z)", re.S)
+        if f"Lex {number}" not in status_index:
+            fail(errors, f"Codex Lex {number} missing status index entry")
+        section_pattern = re.compile(rf"## Lex {re.escape(number)}\..*?(?=## Lex [IVXLCDM]+\.|\Z)", re.S)
         match = section_pattern.search(justification_index)
         if not match:
-            fail(errors, f"Codex Law {number} missing justification index entry")
+            fail(errors, f"Codex Lex {number} missing justification index entry")
             continue
         section = match.group(0)
         for required in ("protocols/", "arguments/", "research/"):
             if required not in section:
-                fail(errors, f"Codex Law {number} missing `{required}` traceability in justification index")
+                fail(errors, f"Codex Lex {number} missing `{required}` traceability in justification index")
+
+
+def check_codex_translations(errors: list[str]) -> None:
+    translations_dir = ROOT / "codex" / "translations"
+    expected = {
+        "UNIVERSAL_JUSTICE_CODE.uk.md",
+        "UNIVERSAL_JUSTICE_CODE.en.md",
+        "UNIVERSAL_JUSTICE_CODE.zh-Hans.md",
+        "UNIVERSAL_JUSTICE_CODE.hi.md",
+        "UNIVERSAL_JUSTICE_CODE.es.md",
+        "UNIVERSAL_JUSTICE_CODE.ar.md",
+    }
+    actual = {
+        path.name
+        for path in translations_dir.glob("UNIVERSAL_JUSTICE_CODE.*.md")
+        if path.is_file()
+    }
+    missing = expected - actual
+    extra = actual - expected
+    for filename in sorted(missing):
+        fail(errors, f"Missing official codex translation {filename}")
+    for filename in sorted(extra):
+        fail(errors, f"Unexpected official codex translation {filename}")
 
 
 def main() -> int:
@@ -160,6 +183,7 @@ def main() -> int:
     check_decisions(errors)
     check_cases(errors)
     check_codex_traceability(errors)
+    check_codex_translations(errors)
     if errors:
         print("JUSTIS validation failed:")
         for error in errors:
