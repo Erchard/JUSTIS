@@ -107,6 +107,7 @@
 | Q-068 | P0 | protocol_done | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `protocols/2026-04-27_session-002_ratification-agenda.md`, `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
 | Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-070 | P1 | protocol_done | Чим проект може бути корисним і як залучити більше людей та нейромережевих агентів? | стратегія участі | `protocols/2026-04-27_project-utility-and-participation.md`, `CONTRIBUTING.md`, `AGENTS.md`, `specifications/OUTREACH_AND_PARTICIPATION.md` |
+| Q-071 | P1 | opened | Як тестувати Кодекс справедливості на реальних складних морально-правових кейсах? | методологічне питання | `CASES.md`, `cases/README.md`, `specifications/CASE_TESTING_METHODOLOGY.md`, `templates/case-test.md` |
 
 ## Правило додавання нових питань
 
@@ -136,8 +137,9 @@
 Рекомендований порядок денний наступної сесії:
 
 1. Q-002: Чи має людина гідність, яку не можна звести до користі?
-2. Перевірити, чи Закон 1 потребує уточнення після Q-002.
-3. Якщо під час Q-002 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
+2. Для Q-002 обрати 1-3 тестові кейси з `CASES.md`, якщо вони допоможуть перевірити принцип гідності.
+3. Перевірити, чи Закон 1 потребує уточнення після Q-002.
+4. Якщо під час Q-002 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
 
 Причина:
 
