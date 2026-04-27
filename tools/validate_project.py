@@ -35,7 +35,7 @@ def parse_table_rows(path: Path) -> list[list[str]]:
 def check_markdown_links(errors: list[str]) -> None:
     link_pattern = re.compile(r"`([^`]+?\.(?:md|yml|yaml|txt|cff|py))`")
     for path in ROOT.rglob("*.md"):
-        if ".git" in path.parts:
+        if ".git" in path.parts or "archive" in path.parts:
             continue
         text = read_text(path)
         for match in link_pattern.finditer(text):

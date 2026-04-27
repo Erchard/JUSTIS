@@ -30,7 +30,7 @@
 
 | ID | Дата | Тема | Рішення | Змістовий статус | Процедурна надійність | Протокол |
 | --- | --- | --- | --- | --- | --- | --- |
-| D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | documentum_provisorium; ratificatio_requiritur | `specifications/HEAVENLY_PARLIAMENT_NAME.md` |
+| D-001 | 2026-04-26 | Назва дискусійного клубу | Прийнято назву "Небесний парламент" як метафоричну назву дискусійного клубу. | consensus_limitatus | documentum_provisorium; ratificatio_requiritur | `archive/2026-04-27_project-cleanup/specifications/HEAVENLY_PARLIAMENT_NAME.md` |
 | D-002 | 2026-04-26 | Розширення складу парламенту | Додано всіх запропонованих кандидатів; поточний склад тоді став 41 індивідуальний член. | consensus_limitatus | summarium_provisorium; ratificatio_requiritur | `protocols/organizational/membership/2026-04-26_heavenly-parliament-membership-expansion.md` |
 | D-003 | 2026-04-26 | Архітектура Кодексу | Прийнято тришарову модель: короткий Кодекс, коментарі, дерева аргументів; кожен пункт Кодексу має бути простежуваний до протоколу й дерева аргументів. Ратифіковано D-025. | consensus_plenus | deliberatio_plena | `protocols/organizational/codex/2026-04-27_D-003_codex-architecture-ratification.md` |
 | D-004 | 2026-04-26 | Правило консенсусу | Закони Кодексу не ухвалюються більшістю; потрібне опрацювання суттєвих аргументів і контраргументів. Ратифіковано D-020. | consensus_plenus | deliberatio_plena | `protocols/organizational/procedure/2026-04-27_D-004_consensus-rule-ratification.md` |

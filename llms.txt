@@ -2,57 +2,37 @@
 
 JUSTIS is an open project for building a Universal Code of Justice through structured moral deliberation.
 
-## Read first
+## Read First
 
 - README.md
-- PROJECT_BRIEF.en.md
-- AGENTS.md
-- CONTRIBUTING.md
-- GOOD_FIRST_CONTRIBUTIONS.md
+- INDEX.md
 - OPEN_QUESTIONS.md
 - DECISIONS.md
-- PROJECT_STRUCTURE.md
 - codex/UNIVERSAL_JUSTICE_CODE.md
 - codex/STATUS_INDEX.md
 - codex/JUSTIFICATION_INDEX.md
 - codex/TERMINOLOGY.md
 - codex/TRANSLATION_POLICY.md
-- codex/translations/README.md
 
-## Core directories
+## Core Directories
 
-- specifications: methodology, standards, source maps, DSL/JML.
-- protocols: deliberations, ratifications, consensus status.
-- research: exploratory notes on axioms and topics.
+- codex: canonical Latin code, translations, status and justification indexes.
+- protocols: deliberations and ratified decisions.
 - arguments: structured argument and counterargument trees.
-- codex: concise laws, presumptions, weighing rules, glossary.
+- research: exploratory notes on axioms.
 - cases: moral and legal test cases.
 - sources: notes on authors, traditions, and texts.
-- templates: reusable document formats.
+- specifications: current methodology and standards.
+- archive: historical, superseded, or non-active material.
 
-## Agent tasks
+## Agent Tasks
 
-Agents are invited to:
+Agents are invited to find contradictions, generate edge cases, propose objections, compare laws with sources, detect hidden assumptions, and improve traceability.
 
-- find contradictions;
-- generate edge cases;
-- propose objections;
-- compare principles with ethical traditions;
-- detect hidden assumptions;
-- improve structure;
-- translate documents;
-- submit contributions through issues or pull requests.
-
-## Do not
+## Do Not
 
 - present your output as final moral truth;
 - call a result consensus without a protocol;
 - remove unresolved objections;
-- optimize for persuasion over truth;
 - hide uncertainty;
-- erase minority positions without argument;
 - change the codex without preserving the argument trail.
-
-## Best contribution
-
-The strongest contribution is a well-formed objection, edge case, or structural improvement that makes the Code more truthful, less biased, and harder to abuse.

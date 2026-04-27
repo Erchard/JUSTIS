@@ -231,6 +231,6 @@
 - `protocols/organizational/membership/2026-04-26_optimal-parliament-size.md`
 - `protocols/organizational/membership/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`
 - `protocols/organizational/membership/2026-04-27_membership-expansion-austrian-school.md`
-- `specifications/HEAVENLY_PARLIAMENT_NAME.md`
+- `archive/2026-04-27_project-cleanup/specifications/HEAVENLY_PARLIAMENT_NAME.md`
 - `specifications/AUTHORITATIVE_SOURCES.md`
 - `specifications/METHODOLOGY_AUTHOR_CRITIQUES.md`

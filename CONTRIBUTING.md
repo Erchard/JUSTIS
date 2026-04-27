@@ -16,7 +16,7 @@
 - дерево аргументів;
 - чернетку протоколу.
 
-Для простого старту дивіться `GOOD_FIRST_CONTRIBUTIONS.md`.
+Для простого старту дивіться `INDEX.md`, `OPEN_QUESTIONS.md` і `.github/ISSUE_TEMPLATE/`.
 
 Якщо ви працюєте через GitHub, можна скористатися issue forms:
 

@@ -1,81 +1,31 @@
-# Індекс проекту JUSTIS
+# Індекс JUSTIS
 
-Цей файл є коротким маршрутом читання для людей, критиків, дослідників і нейромережевих агентів.
+## Головний Маршрут
 
-## Якщо ви бачите проект уперше
+1. `README.md`
+2. `codex/UNIVERSAL_JUSTICE_CODE.md`
+3. `codex/translations/`
+4. `OPEN_QUESTIONS.md`
+5. `DECISIONS.md`
+6. `CASES.md`
 
-Читайте в такому порядку:
+## Якщо Критикуєте Закон
 
-1. `README.md` - що таке проект.
-2. `PROJECT_BRIEF.en.md` - короткий англомовний вступ.
-3. `codex/UNIVERSAL_JUSTICE_CODE.md` - латинський канонічний Кодекс.
-4. `OPEN_QUESTIONS.md` - що ще не вирішено.
-5. `GOOD_FIRST_CONTRIBUTIONS.md` - як долучитися без занурення в усю структуру.
+1. Знайдіть закон у `codex/UNIVERSAL_JUSTICE_CODE.md`.
+2. Перевірте статус у `codex/STATUS_INDEX.md`.
+3. Перейдіть до обґрунтування через `codex/JUSTIFICATION_INDEX.md`.
+4. Читайте відповідний протокол у `protocols/moral/`.
+5. Читайте дерево аргументів у `arguments/axioms/`.
+6. Перевірте закон на кейсах у `cases/`.
 
-## Якщо ви хочете критикувати Кодекс
+## Якщо Продовжуєте Роботу
 
-Починайте тут:
+- Наступне питання: Q-006 у `OPEN_QUESTIONS.md`.
+- Чинний регламент: `specifications/RESEARCH_METHODOLOGY.md` і `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`.
+- Склад парламенту: `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`.
+- Формат JML: `specifications/JUSTICE_MARKUP_LANGUAGE.md`.
 
-1. `codex/UNIVERSAL_JUSTICE_CODE.md`
-2. `codex/STATUS_INDEX.md`
-3. `codex/JUSTIFICATION_INDEX.md`
-4. `codex/TERMINOLOGY.md`
-5. `codex/TRANSLATION_POLICY.md`
-6. `codex/translations/`
-7. `codex/LAWS.md`
-8. `arguments/axioms/`
-9. `protocols/moral/`
-10. `cases/`
-
-Найцінніший внесок: сильне заперечення, граничний кейс або виявлена суперечність між Кодексом і його обґрунтуванням.
-
-## Якщо ви хочете перевірити процедурну чесність
-
-Читайте:
-
-1. `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`
-2. `PROJECT_PRINCIPLES_AUDIT.md`
-3. `templates/deliberation-protocol.md`
-4. `DECISIONS.md`
-5. `protocols/RATIFICATION_REGISTER.md`
-6. останні повні протоколи в `protocols/moral/` і `protocols/organizational/`
-
-Ключове питання: чи справді рішення має аргументи, заперечення, відповіді, відкриті незгоди й умови перегляду?
-
-## Якщо ви хочете працювати як агент
-
-Читайте:
-
-1. `llms.txt`
-2. `AGENTS.md`
-3. `agent_tasks.yml`
-4. `GOOD_FIRST_CONTRIBUTIONS.md`
-5. `.github/ISSUE_TEMPLATE/agent-contribution.yml`
-
-Не називайте агентський висновок законом Кодексу без протоколу й оновлення реєстрів.
-
-## Якщо ви хочете досліджувати джерела
-
-Читайте:
-
-1. `specifications/AUTHORITATIVE_SOURCES.md`
-2. `sources/`
-3. `templates/source-note.md`
-
-Джерельна нотатка має відрізняти точний текст, сильну інтерпретацію, реконструкцію й припущення.
-
-## Якщо ви хочете тестувати на кейсах
-
-Читайте:
-
-1. `CASES.md`
-2. `cases/README.md`
-3. `specifications/CASE_TESTING_METHODOLOGY.md`
-4. `templates/case-test.md`
-
-Кейс не є автоматичним доказом. Він є перевіркою того, чи бачить Кодекс реальний моральний конфлікт.
-
-## Поточні закони Кодексу
+## Поточні Закони
 
 1. Lex I: De Dolore.
 2. Lex II: De Dignitate.
@@ -83,12 +33,13 @@
 4. Lex IV: De Casibus Similibus.
 5. Lex V: De Infirmitate.
 
-Канонічний текст Кодексу зберігається латинською. Офіційні переклади є в `codex/translations/`. Статуси й обґрунтування не зберігаються у фінальному тексті Кодексу. Для цього є `codex/STATUS_INDEX.md` і `codex/JUSTIFICATION_INDEX.md`.
+## Де Що Лежить
 
-## Наступний змістовний напрям
-
-Наступна рекомендована сесія:
-
-> Q-006: Чи може справедливість існувати без правди?
-
-Причина: Q-001, Q-002, Q-003, Q-004 і Q-005 вже внесені в Кодекс, а Q-006 перевіряє фундаментальну умову будь-якого подальшого морального судження: зв'язок справедливості з правдою.
+- `codex/` - фінальний текст і службові індекси Кодексу.
+- `protocols/` - хід дискусій і рішення сесій.
+- `arguments/` - структуровані аргументи.
+- `research/` - дослідницькі нотатки.
+- `cases/` - перевірка Кодексу на ситуаціях.
+- `sources/` - джерельні нотатки.
+- `specifications/` - метод, стандарти, члени парламенту, джерела.
+- `archive/` - старе, службове або замінене.

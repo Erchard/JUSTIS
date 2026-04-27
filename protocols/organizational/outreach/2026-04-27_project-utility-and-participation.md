@@ -269,7 +269,7 @@ dissentiones: []
 
 1. `CONTRIBUTING.md` - як людям долучатися.
 2. `AGENTS.md` - як нейромережевим агентам працювати з проектом.
-3. `specifications/OUTREACH_AND_PARTICIPATION.md` - стратегія публічності й залучення.
+3. `archive/2026-04-27_project-cleanup/specifications/OUTREACH_AND_PARTICIPATION.md` - стратегія публічності й залучення.
 
 ## Умови перегляду
 
@@ -285,6 +285,6 @@ dissentiones: []
 - `README.md`
 - `CONTRIBUTING.md`
 - `AGENTS.md`
-- `specifications/OUTREACH_AND_PARTICIPATION.md`
+- `archive/2026-04-27_project-cleanup/specifications/OUTREACH_AND_PARTICIPATION.md`
 - `OPEN_QUESTIONS.md`
 - `DECISIONS.md`

@@ -76,22 +76,22 @@
 | Q-037 | P2 | opened | Яким має бути перший короткий список законів Кодексу? | структура Кодексу | `protocols/organizational/codex/2026-04-26_codex_document_architecture.md` |
 | Q-038 | P3 | opened | Чи потрібно додати до Небесного парламенту практиків, жертв або свідків несправедливості? | склад парламенту | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-039 | P3 | opened | Чи потрібно створити автоматичну перевірку JML у майбутньому? | технічне питання | `specifications/JUSTICE_MARKUP_LANGUAGE.md` |
-| Q-040 | P3 | opened | Як експортувати фінальний Кодекс у зручні формати? | технічне питання | `PROJECT_STRUCTURE.md` |
+| Q-040 | P3 | opened | Як експортувати фінальний Кодекс у зручні формати? | технічне питання | `INDEX.md`, `codex/README.md` |
 | Q-041 | P1 | opened | Який регламент сесій Небесного парламенту має бути постійним? | організаційне питання | `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md` |
 | Q-042 | P1 | opened | Як визначати порядок денний кожної сесії? | організаційне питання | `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md` |
 | Q-043 | P1 | opened | Як вести реєстр рішень Небесного парламенту? | організаційне питання | `protocols/README.md` |
-| Q-044 | P1 | opened | Як відрізняти рішення, протокол, дослідження, дерево аргументів і закон Кодексу? | організаційне питання | `PROJECT_STRUCTURE.md` |
+| Q-044 | P1 | opened | Як відрізняти рішення, протокол, дослідження, дерево аргументів і закон Кодексу? | організаційне питання | `INDEX.md`, `codex/TERMINOLOGY.md` |
 | Q-045 | P1 | opened | Які мінімальні документи потрібні, щоб принцип можна було внести до Кодексу? | організаційне питання | `protocols/organizational/codex/2026-04-26_codex_document_architecture.md` |
 | Q-046 | P2 | opened | Як підтримувати актуальність реєстру членів Небесного парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-047 | P2 | opened | Як фіксувати різницю між індивідуальними членами парламенту і дорадчими традиціями? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-048 | P2 | opened | Як визначати, коли потрібно додавати нового автора або традицію? | організаційне питання | `protocols/organizational/membership/2026-04-26_invited-authorities.md` |
 | Q-049 | P2 | opened | Як архівувати застарілі документи без втрати історії рішень? | організаційне питання | `archive/README.md` |
 | Q-050 | P2 | opened | Як синхронізувати короткий Кодекс, коментарі, протоколи і дерева аргументів? | організаційне питання | `protocols/organizational/codex/2026-04-26_codex_document_architecture.md`, `arguments/README.md` |
-| Q-051 | P2 | opened | Як називати файли, щоб структура залишалася зрозумілою при рості проекту? | організаційне питання | `PROJECT_STRUCTURE.md`, `protocols/README.md` |
+| Q-051 | P2 | opened | Як називати файли, щоб структура залишалася зрозумілою при рості проекту? | організаційне питання | `INDEX.md`, `protocols/README.md` |
 | Q-052 | P2 | opened | Як часто переглядати методологію проекту? | організаційне питання | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-053 | P2 | opened | Як фіксувати зміни статусу питання в реєстрі відкритих питань? | організаційне питання | `OPEN_QUESTIONS.md` |
 | Q-054 | P3 | opened | Чи потрібен окремий реєстр прийнятих законів, презумпцій, апорій і правил зважування? | організаційне питання | `codex/README.md` |
-| Q-055 | P3 | opened | Чи потрібен окремий changelog проекту, крім Git-історії? | організаційне питання | `PROJECT_STRUCTURE.md` |
+| Q-055 | P3 | opened | Чи потрібен окремий changelog проекту, крім Git-історії? | організаційне питання | `archive/2026-04-27_project-cleanup/root-documents/RELEASE_NOTES_v0.1.0.md` |
 | Q-056 | P1 | protocol_done | Як призупиняти тему і повертати її в беклог, якщо вона залежить від фундаментальнішого питання? | методологічне питання | `protocols/organizational/procedure/2026-04-26_return-topic-to-backlog-rule.md` |
 | Q-057 | P1 | protocol_done | Як оновлювати склад Небесного парламенту без перетворення оцінки на конкурс популярності? | організаційне питання | `protocols/organizational/membership/2026-04-26_membership-renewal-rule.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-058 | P2 | opened | Коли проводити перший перегляд статусів членів парламенту? | організаційне питання | `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
@@ -106,7 +106,7 @@
 | Q-067 | P2 | protocol_done | Кого саме маємо на увазі під кандидатом "Техке" серед сучасних психотерапевтів? | склад парламенту | `protocols/organizational/membership/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 | Q-068 | P0 | protocol_done | Які попередні рішення D-001..D-013 потрібно першими ратифікувати повною дискусією? | методологічне питання | `protocols/organizational/procedure/2026-04-27_session-002_ratification-agenda.md`, `DECISIONS.md`, `protocols/RATIFICATION_REGISTER.md`, `specifications/PROCEDURAL_INTEGRITY_STANDARD.md` |
 | Q-069 | P1 | opened | Як працювати з Небесним парламентом, якщо повний склад досяг 60 членів? | організаційне питання | `protocols/organizational/membership/2026-04-27_membership-expansion-east-africa-marx-psychoanalysis.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
-| Q-070 | P1 | protocol_done | Чим проект може бути корисним і як залучити більше людей та нейромережевих агентів? | стратегія участі | `protocols/organizational/outreach/2026-04-27_project-utility-and-participation.md`, `CONTRIBUTING.md`, `AGENTS.md`, `specifications/OUTREACH_AND_PARTICIPATION.md` |
+| Q-070 | P1 | protocol_done | Чим проект може бути корисним і як залучити більше людей та нейромережевих агентів? | стратегія участі | `protocols/organizational/outreach/2026-04-27_project-utility-and-participation.md`, `CONTRIBUTING.md`, `AGENTS.md`, `archive/2026-04-27_project-cleanup/specifications/OUTREACH_AND_PARTICIPATION.md` |
 | Q-071 | P1 | opened | Як тестувати Кодекс справедливості на реальних складних морально-правових кейсах? | методологічне питання | `CASES.md`, `cases/README.md`, `specifications/CASE_TESTING_METHODOLOGY.md`, `templates/case-test.md` |
 | Q-072 | P2 | protocol_done | Чи потрібно додати Людвіга фон Мізеса і Фрідріха фон Гаєка до Небесного парламенту? | склад парламенту | `protocols/organizational/membership/2026-04-27_membership-expansion-austrian-school.md`, `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md` |
 

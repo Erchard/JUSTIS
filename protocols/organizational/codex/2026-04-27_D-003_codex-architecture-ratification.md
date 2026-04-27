@@ -272,6 +272,6 @@ D-003 потрібно переглянути, якщо:
 - `codex/UNIVERSAL_JUSTICE_CODE.md`
 - `codex/LAWS.md`
 - `arguments/README.md`
-- `PROJECT_STRUCTURE.md`
+- `archive/2026-04-27_project-cleanup/root-documents/PROJECT_STRUCTURE.md`
 - `DECISIONS.md`
 - `protocols/RATIFICATION_REGISTER.md`

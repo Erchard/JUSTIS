@@ -208,7 +208,7 @@ protocola:
   - "protocols/YYYY-MM-DD_topic.md"
 
 argumenta_arbor:
-  - "arguments/laws/example.md"
+  - "arguments/axioms/"
 ```
 
 ## 9. Ступені ризику
