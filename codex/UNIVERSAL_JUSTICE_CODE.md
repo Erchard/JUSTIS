@@ -31,3 +31,15 @@
 - `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`
 - `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
 - `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`
+
+### Закон 3. Сила і право
+
+> Сила сама по собі не створює права.
+
+Статус: `consensus_limitatus`.
+
+Повне обґрунтування:
+
+- `protocols/2026-04-27_Q-004_force-and-right.md`
+- `arguments/axioms/Q-004_force-and-right.md`
+- `research/axioms/Q-004_force-and-right.md`

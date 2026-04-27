@@ -40,7 +40,7 @@
 | Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
 | Q-002 | P0 | codex_done | Чи має людина гідність, яку не можна звести до користі? | аксіома | `protocols/2026-04-27_Q-002_human-dignity-not-reducible-to-utility.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
 | Q-003 | P0 | opened | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
-| Q-004 | P0 | in_research | Чи може сила сама по собі створювати право? | аксіома | `protocols/2026-04-27_session-001-status-and-continuation.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
+| Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
 | Q-005 | P0 | opened | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-007 | P0 | opened | Чи має моральне правило бути здатним до універсалізації? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
@@ -136,11 +136,10 @@
 
 Рекомендований порядок денний наступної сесії:
 
-1. Q-004: Чи може сила сама по собі створювати право?
-2. Для Q-004 обрати 1-3 тестові кейси з `CASES.md`, якщо вони допоможуть перевірити межі сили, примусу і права.
-3. Перевірити, чи Закон 2 потребує окремих карток кейсів C-001, C-002 і C-010.
-4. Якщо під час Q-004 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
+1. Q-003: Чи можуть однакові випадки оцінюватися по-різному без несправедливості?
+2. Перевірити, чи Закони 1-3 потребують короткого синхронізаційного коментаря про взаємозв'язок страждання, гідності й сили.
+3. Якщо під час Q-003 відкриється глибше питання, діяти за D-006 і повернути тему в беклог або змінити порядок денний явно.
 
 Причина:
 
-Q-001 і Q-002 вже внесені до робочого Кодексу за повними дискусіями. Мінімальний процедурний каркас ратифіковано: D-004, D-013, D-006, D-012 і D-003. Наступний змістовний крок - Q-004.
+Q-001, Q-002 і Q-004 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-003, бо він перевіряє рівність оцінки однакових випадків і може вплинути на всі три перші закони.
