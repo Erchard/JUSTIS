@@ -3,14 +3,18 @@
 ```yaml
 id: Q-001
 typus: axioma
-status: in_research
+status: codex_done
 titulus: "Моральне значення страждання"
 formula: "Страждання має моральне значення."
 fides_fontis: reconstruction
 protocola:
   - "protocols/2026-04-26_session-001_initial-axioms.md"
+  - "protocols/2026-04-27_Q-001_suffering-moral-significance.md"
 argumenta_arbor:
   - "arguments/axioms/Q-001_suffering-moral-significance.md"
+codex:
+  - "codex/UNIVERSAL_JUSTICE_CODE.md"
+  - "codex/LAWS.md"
 ```
 
 ## 1. Формулювання
@@ -23,8 +27,21 @@ argumenta_arbor:
 
 ## 3. Статус
 
-Відкрито для дослідження.
+Пройшло першу повну дискусію Небесного парламенту.
+
+Результат:
+
+> Страждання не можна ігнорувати, нормалізувати або заподіювати без достатнього виправдання.
+
+Статус результату: обмежений консенсус, внесено до робочого Кодексу.
 
 ## 4. Наступний крок
 
-Побудувати дерево аргументів і контраргументів.
+Перевірити принцип у наступних темах:
+
+- покарання;
+- брехня заради порятунку;
+- тварини;
+- штучний інтелект;
+- війна;
+- медична й психологічна травма.

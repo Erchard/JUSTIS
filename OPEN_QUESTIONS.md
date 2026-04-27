@@ -37,7 +37,7 @@
 
 | ID | Пріоритет | Статус | Питання | Тип | Пов'язані документи |
 | --- | --- | --- | --- | --- | --- |
-| Q-001 | P0 | in_research | Чи має страждання моральне значення? | аксіома | `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
+| Q-001 | P0 | codex_done | Чи має страждання моральне значення? | аксіома | `protocols/2026-04-27_Q-001_suffering-moral-significance.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `codex/LAWS.md`, `research/axioms/Q-001_suffering-moral-significance.md`, `arguments/axioms/Q-001_suffering-moral-significance.md` |
 | Q-002 | P0 | in_research | Чи має людина гідність, яку не можна звести до користі? | аксіома | `research/axioms/Q-002_human-dignity-not-reducible-to-utility.md`, `arguments/axioms/Q-002_human-dignity-not-reducible-to-utility.md` |
 | Q-003 | P0 | opened | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-004 | P0 | in_research | Чи може сила сама по собі створювати право? | аксіома | `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
@@ -135,12 +135,12 @@
 Рекомендований порядок денний наступної сесії:
 
 1. D-004: Ратифікація правила консенсусу.
-2. D-013: Ратифікація правила формалізації через DSL.
-3. D-006: Ратифікація регламенту сесій.
+2. Q-002: Чи має людина гідність, яку не можна звести до користі?
+3. Перевірити, чи Закон 1 потребує уточнення після Q-002.
 
 Причина:
 
-Порядок ратифікації вже визначено в D-017. Перед початком нової великої філософської теми потрібно підтвердити мінімальний процедурний каркас.
+Перший змістовний закон уже внесено до робочого Кодексу за повною дискусією. Після ратифікації D-004 і розгляду Q-002 потрібно перевірити, чи формула Закону 1 потребує уточнення.
 
 Після процедурної ратифікації рекомендована перша змістовна сесія:
 
