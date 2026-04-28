@@ -12,6 +12,18 @@ This is the English navigation map for the project.
 6. `DECISIONS.md`
 7. `CASES.md`
 
+## Session Procedure
+
+The canonical repeatable session algorithm is written as DSL/JML in:
+
+- `specifications/SESSION_PROTOCOL_JML.yml`
+
+The human-readable source protocols are:
+
+- `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`
+- `protocols/organizational/procedure/2026-04-27_D-006_session-regulation-ratification.md`
+- `protocols/organizational/procedure/2026-04-28_session-protocol-dsl-and-native-language.md`
+
 ## If You Want To Criticize A Law
 
 1. Find the law in `codex/UNIVERSAL_JUSTICE_CODE.md`.

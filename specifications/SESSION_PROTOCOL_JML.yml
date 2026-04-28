@@ -1,0 +1,173 @@
+id: norma.sessionis.jml.001
+typus: norma_processus
+status: consensus_practicus
+titulus: "Canon sessionis in Justice Markup Language"
+lingua_structurae: la
+lingua_operativa:
+  primaria: en
+  secundaria: uk
+protocola_fontes:
+  - "protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md"
+  - "protocols/organizational/procedure/2026-04-27_D-006_session-regulation-ratification.md"
+  - "protocols/organizational/procedure/2026-04-27_D-013_dsl-formalization-ratification.md"
+  - "protocols/organizational/procedure/2026-04-28_session-protocol-dsl-and-native-language.md"
+
+principia:
+  - id: principium.agenda_prima
+    formula: "Omnis sessio incipit ab agenda, finibus et exitu exspectato."
+  - id: principium.consensus_non_maioritas
+    formula: "Decisio non fit per maiorem partem, sed per responsionem ad argumenta gravia."
+  - id: principium.obiectiones_non_abscondendae
+    formula: "Obiectiones graves non occultantur; status earum semper indicatur."
+  - id: principium.meta_recensio
+    formula: "Omnis sessio includit metablocum de qualitate methodi et processus."
+  - id: principium.lingua_materna
+    formula: "Membrum, quantum fieri potest, loquitur lingua sua materna; translatio operativa additur ad intellegentiam communem."
+
+schema_sessionis:
+  id: sessio.YYYY-MM-DD.NNN
+  typus: sessio
+  status: in_disputatione
+  titulus: ""
+  dies: "YYYY-MM-DD"
+  quaestio_principalis: "Q-000 or D-000"
+  finis_sessionis:
+    - "what must be true for the session to be considered complete"
+  collegium:
+    minimum:
+      numerus_membrorum: 5
+      voces_diversae: true
+      includit_obiectorem: true
+    membrum_exemplum:
+      nomen: ""
+      persona: individualis
+      munus: ""
+      lingua_materna: ""
+      lingua_actus_praeferenda: ""
+      fides_repraesentationis: direct_text / strong_interpretation / reconstruction / analogy / speculative
+  agenda:
+    - ordo: 1
+      quaestio: "Q-000 or D-000"
+      typus_quaestionis: moralis / organizationalis / methodologica / ratificatio / codex / membership / outreach
+      exitus_exspectatus: decisio / aporia / relatio / arbor_argumentorum / lex_candidata / reditus_ad_backlog
+      causa_prioritatis: ""
+      intra_fines: true
+  extra_fines:
+    - quaestio: ""
+      actio: addere_ad_registrum / differre / notare_ut_dependens
+  regula_altioris_quaestionis:
+    si_quaestio_altior_apparet:
+      optiones:
+        - continuare_et_registrare
+        - suspendere_currentem_ut_blocked_by_deeper_question
+        - mutare_agendam_explicite
+      actio_requisita:
+        - "record the deeper question"
+        - "record why it blocks or modifies the current topic"
+        - "record whether the current agenda changes"
+
+ordo_processus:
+  - gradus: 1
+    nomen: initium
+    requirit:
+      - collegium
+      - agenda
+      - fines_sessionis
+      - exitus_exspectatus
+      - regula_altioris_quaestionis
+  - gradus: 2
+    nomen: expositio_quaestionis
+    requirit:
+      - quaestio
+      - contextus
+      - quid_est_in_disputatione
+      - quid_non_est_in_disputatione
+  - gradus: 3
+    nomen: actus_membrorum
+    requirit:
+      - thesis
+      - argumentum
+      - obiectio
+      - responsio
+      - status_obiectionis
+      - lingua_materna
+      - textus_originalis
+      - translatio_operativa
+  - gradus: 4
+    nomen: probatio_obiectionum
+    requirit:
+      - objectiones_graves
+      - responsiones
+      - objectiones_apertae
+      - rationes_cur_solutae_vel_apertae
+  - gradus: 5
+    nomen: casus_extremi
+    requirit:
+      - casus_minimum_unus
+      - periculum_abusus
+      - partes_affectae
+      - audit_bias
+  - gradus: 6
+    nomen: decisio_vel_aporia
+    requirit:
+      - formula
+      - status_consensus
+      - status_proceduralis
+      - conditiones
+      - dissentiones
+  - gradus: 7
+    nomen: metablocum
+    requirit:
+      - quid_processus_bene_fecit
+      - quid_processus_debiliter_fecit
+      - objectiones_non_satis_tractatae
+      - emendationes_methodi
+      - actio_proxima
+  - gradus: 8
+    nomen: synchronizatio_registrorum
+    requirit:
+      - DECISIONS.md
+      - OPEN_QUESTIONS.md
+      - protocols/RATIFICATION_REGISTER.md_si_applicatur
+      - codex_vel_support_codex_si_applicatur
+      - argumenta_vel_research_si_applicatur
+
+schema_actus:
+  id: actus.NNN
+  actor: ""
+  typus: thesis / argumentum / obiectio / responsio / distinctio / concessio / aporia
+  respondet_ad: null
+  fides_fontis: direct_text / strong_interpretation / reconstruction / analogy / speculative
+  lingua_materna: ""
+  lingua_originalis: ""
+  textus_originalis: ""
+  translatio_operativa:
+    lingua: en
+    textus: ""
+  thesis: ""
+  status: proposita / accepta / aperta / soluta / reiecta
+  status_obiectionis: null
+
+regula_linguae_maternae:
+  propositum: "Preserve the voice and conceptual texture of each member while keeping the session mutually intelligible."
+  regulae:
+    - "If a member's native language is known and practical, the actus records the original statement in that language."
+    - "Every non-operational-language statement must include an operational translation."
+    - "If the original language cannot be reconstructed responsibly, the field lingua_originalis is marked as reconstruction_language and fides_fontis is lowered."
+    - "Translation is evidence support, not a replacement for the original actus."
+    - "Disputes about translation become explicit objectiones or notae_translationis."
+
+criterium_completionis:
+  sessio_completa_si:
+    - "agenda items have explicit statuses"
+    - "all serious objections have responses or remain explicitly open"
+    - "deeper blocking questions are registered"
+    - "the decision or aporia is recorded in DSL"
+    - "the metablock is completed"
+    - "affected registers are updated"
+
+conditiones_revisionis:
+  - "The DSL becomes too heavy for practical sessions."
+  - "Native-language reconstruction creates false authority."
+  - "Translations introduce conceptual distortions."
+  - "Sessions become formally complete but philosophically shallow."
