@@ -1,0 +1,220 @@
+id: systema.parliament_engine.runtime.001
+typus: runtime_specification
+status: propositum
+titulus: "Parliament Engine runtime model for JUSTIS Chamber"
+appellatio:
+  app: JUSTIS Chamber
+  core: Parliament Engine
+  corpus: JUSTIS
+  agent_layer: Deliberation Runtime
+
+principia:
+  non_chat:
+    formula: "User input is treated as civic initiative, not as direct command over the Parliament."
+  artifactum_requiritur:
+    formula: "Every completed session must produce at least one structured artifact."
+  obiectio_fortis_requiritur:
+    formula: "No decision is accepted without a strong-objection round."
+  canon_safety:
+    formula: "Canonical Code files are changed only when procedural guard conditions are satisfied."
+    fontes:
+      - "specifications/PARLIAMENT_MAIN_LOOP.md"
+      - "specifications/SESSION_PROTOCOL_JML.yml"
+
+status_sessionis:
+  - initialized
+  - opening
+  - regulation_debate
+  - agenda_selection
+  - main_deliberation
+  - objection_round
+  - case_testing
+  - draft_decision
+  - consensus_check
+  - protocol_generation
+  - repository_patch_proposal
+  - artifact_review
+  - closed
+  - stopped
+  - non_productive
+
+typus_sessionis:
+  - moral_session
+  - procedural_session
+  - technical_session
+  - source_review_session
+  - codex_revision_session
+
+typus_initiativae:
+  - moral_question
+  - objection
+  - case
+  - source
+  - procedure_change
+  - technical_task
+  - member_candidate
+  - repository_structure_change
+
+status_initiativae:
+  - submitted
+  - classified
+  - waiting
+  - selected_for_agenda
+  - under_discussion
+  - accepted
+  - rejected
+  - deferred
+  - converted_to_open_question
+  - converted_to_issue
+
+schema_initiativae:
+  id: initium.NNN
+  typus: moral_question
+  status: submitted
+  titulus: ""
+  textus: ""
+  auctor: user / agent / parliament
+  target: null
+  exemplum: null
+  desired_action: null
+  scores:
+    moral_urgency: 1
+    foundational_importance: 1
+    dependency_blocking: 1
+    user_interest: 1
+    risk_of_confusion: 1
+    technical_feasibility: 1
+    requires_sources: false
+  historia:
+    - status: submitted
+      quando: "YYYY-MM-DDTHH:MM:SS"
+      ratio: ""
+
+munera_agentium:
+  functionales:
+    - id: moderator
+      officium: "Keep the session within regulation and agenda boundaries."
+    - id: scribe
+      officium: "Record speech acts and produce protocol drafts."
+    - id: procedure_guardian
+      officium: "Check compliance with SESSION_PROTOCOL_JML.yml."
+    - id: backlog_clerk
+      officium: "Classify initiatives and maintain backlog status."
+    - id: steelman_critic
+      officium: "Find the strongest objection to any proposed decision."
+    - id: edge_case_advocate
+      officium: "Demand boundary cases and abuse tests."
+    - id: repository_maintainer
+      officium: "Map decisions to repository artifact proposals."
+  personae:
+    regula: "Persona agents are reconstructed roles inspired by thinkers or traditions, not literal quotations unless marked direct_text."
+    campi_requisiti:
+      - nomen
+      - traditio
+      - lingua_materna
+      - fides_repraesentationis
+      - limites_reconstructionis
+
+transitus:
+  - a: initialized
+    ad: opening
+    guardia:
+      - repository_loaded
+      - session_protocol_loaded
+  - a: opening
+    ad: regulation_debate
+    guardia:
+      - moderator_present
+      - scribe_present
+  - a: regulation_debate
+    ad: agenda_selection
+    guardia:
+      - regulation_confirmed_or_revision_motion_recorded
+  - a: agenda_selection
+    ad: main_deliberation
+    guardia:
+      - agenda_has_at_least_one_item
+      - session_boundaries_defined
+      - expected_output_defined
+  - a: main_deliberation
+    ad: objection_round
+    guardia:
+      - initial_positions_recorded
+  - a: objection_round
+    ad: case_testing
+    guardia:
+      - serious_objections_recorded_or_failed_search_recorded
+  - a: case_testing
+    ad: draft_decision
+    guardia:
+      - at_least_one_case_or_reason_for_absence_recorded
+  - a: draft_decision
+    ad: consensus_check
+    guardia:
+      - draft_decision_has_status
+      - unresolved_objections_listed
+  - a: consensus_check
+    ad: protocol_generation
+    guardia:
+      - consensus_or_aporia_status_explicit
+  - a: protocol_generation
+    ad: repository_patch_proposal
+    guardia:
+      - protocol_artifact_exists
+  - a: repository_patch_proposal
+    ad: artifact_review
+    guardia:
+      - proposed_changes_are_non_destructive
+  - a: artifact_review
+    ad: closed
+    guardia:
+      - user_reviewed_or_auto_save_allowed
+      - at_least_one_artifact_created
+
+artifacta_sessionis:
+  requirit_minimum_unum:
+    - protocol
+    - decision
+    - open_question
+    - case
+    - objection
+    - technical_task
+    - repository_patch_proposal
+  schema_bundle:
+    protocol: null
+    decisions: []
+    unresolved_disagreements: []
+    new_open_questions: []
+    proposed_file_changes: []
+    new_backlog_tasks: []
+    pull_request_plan: null
+
+regulae_repository:
+  read_first:
+    - "README.md"
+    - "llms.txt"
+    - "OPEN_QUESTIONS.md"
+    - "DECISIONS.md"
+    - "specifications/SESSION_PROTOCOL_JML.yml"
+    - "specifications/PARLIAMENT_MAIN_LOOP.md"
+  write_allowed_by_default:
+    - "protocols/"
+    - "research/"
+    - "arguments/"
+    - "cases/"
+  write_guarded:
+    - "DECISIONS.md"
+    - "OPEN_QUESTIONS.md"
+    - "support/codex/"
+  write_forbidden_without_decision:
+    - "codex/UNIVERSAL_JUSTICE_CODE.md"
+    - "codex/translations/"
+
+criterium_mvp:
+  done_when:
+    - "A user can start a local session."
+    - "The runtime reads the repository state."
+    - "The Parliament selects one backlog item procedurally."
+    - "Four to six agents produce structured speech acts."
+    - "A protocol draft is generated."
+    - "Proposed repository changes are shown before writing."
