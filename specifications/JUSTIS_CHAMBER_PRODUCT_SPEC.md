@@ -236,6 +236,7 @@ Desktop App
   -> Session Orchestrator
   -> Parliament Engine
   -> Agent Runtime Adapter
+       -> Cursor SDK
        -> OpenAI
        -> local model
        -> mock runtime for tests
@@ -249,6 +250,8 @@ Desktop App
 ```
 
 The Parliament Engine is the heart of the system. Model providers are replaceable executors.
+
+Cursor SDK is a strong first adapter candidate because it can run Cursor coding agents from TypeScript applications and stream agent events. Its role is still adapter-level: it executes agent work, but it does not define the Parliament's procedure or Canon-Safety rules. See `specifications/CURSOR_SDK_ADAPTER.md`.
 
 ## Core Domain Objects
 

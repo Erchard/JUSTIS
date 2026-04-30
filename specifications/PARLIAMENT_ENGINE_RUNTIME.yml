@@ -8,6 +8,29 @@ appellatio:
   corpus: JUSTIS
   agent_layer: Deliberation Runtime
 
+adapters:
+  cursor_sdk:
+    status: candidate_primary
+    lingua: TypeScript
+    descriptio: "Adapter for running Cursor coding agents from JUSTIS Chamber."
+    specificatio: "specifications/CURSOR_SDK_ADAPTER.md"
+    environment:
+      - CURSOR_API_KEY
+    usus_mvp:
+      - repository_maintainer
+      - technical_session
+      - protocol_artifact_draft
+    limites:
+      - "Adapter must not define parliamentary procedure."
+      - "Adapter must not write canonical Code files directly."
+      - "Cloud runtime use must be visible to the user."
+  openai:
+    status: candidate
+  local_model:
+    status: candidate
+  mock:
+    status: required_for_tests
+
 principia:
   non_chat:
     formula: "User input is treated as civic initiative, not as direct command over the Parliament."
