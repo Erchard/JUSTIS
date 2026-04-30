@@ -127,7 +127,7 @@ These are required for the MVP:
 
 - Moderator: keeps the session within regulation.
 - Scribe: records the protocol.
-- Procedure Guardian: checks `SESSION_PROTOCOL_JML.yml`.
+- Procedure Guardian: checks `specifications/SESSION_PROTOCOL_JML.yml`.
 - Backlog Clerk: classifies initiatives.
 - Steelman Critic: searches for the strongest objection.
 - Edge Case Advocate: demands boundary cases.

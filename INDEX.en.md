@@ -6,11 +6,12 @@ This is the English navigation map for the project.
 
 1. `README.md`
 2. `README.en.md`
-3. `codex/UNIVERSAL_JUSTICE_CODE.md`
-4. `codex/translations/UNIVERSAL_JUSTICE_CODE.en.md`
-5. `OPEN_QUESTIONS.md`
-6. `DECISIONS.md`
-7. `CASES.md`
+3. `README.uk.md`
+4. `codex/UNIVERSAL_JUSTICE_CODE.md`
+5. `codex/translations/UNIVERSAL_JUSTICE_CODE.en.md`
+6. `OPEN_QUESTIONS.md`
+7. `DECISIONS.md`
+8. `CASES.md`
 
 ## Session Procedure
 
@@ -23,6 +24,18 @@ The human-readable source protocols are:
 - `protocols/organizational/procedure/2026-04-26_session-agenda-regulation.md`
 - `protocols/organizational/procedure/2026-04-27_D-006_session-regulation-ratification.md`
 - `protocols/organizational/procedure/2026-04-28_session-protocol-dsl-and-native-language.md`
+
+The overall project main loop is:
+
+- `specifications/PARLIAMENT_MAIN_LOOP.md`
+
+## JUSTIS Chamber
+
+The desktop application concept and runtime model are specified in:
+
+- `specifications/JUSTIS_CHAMBER_PRODUCT_SPEC.md`
+- `specifications/PARLIAMENT_ENGINE_RUNTIME.yml`
+- `specifications/CURSOR_SDK_ADAPTER.md`
 
 ## If You Want To Criticize A Law
 
@@ -58,4 +71,4 @@ The human-readable source protocols are:
 
 ## Next Substantive Question
 
-Q-006: Can justice exist without truth?
+Q-006 has `protocol_done` status. The next step is to test whether it is ready for `codex_candidate` or should remain `revisendum` / `aporia`.

@@ -7,6 +7,7 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - README.md
 - PROJECT_BRIEF.en.md
 - README.en.md
+- README.uk.md
 - INDEX.en.md
 - AGENTS.en.md
 - CONTRIBUTING.en.md
@@ -21,6 +22,9 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - support/codex/TRANSLATION_POLICY.md
 - specifications/SESSION_PROTOCOL_JML.yml
 - specifications/PARLIAMENT_MAIN_LOOP.md
+- specifications/JUSTIS_CHAMBER_PRODUCT_SPEC.md
+- specifications/PARLIAMENT_ENGINE_RUNTIME.yml
+- specifications/CURSOR_SDK_ADAPTER.md
 
 ## Core Directories
 
@@ -34,6 +38,9 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - specifications: current methodology and standards.
 - specifications/SESSION_PROTOCOL_JML.yml: canonical DSL algorithm for every session.
 - specifications/PARLIAMENT_MAIN_LOOP.md: canonical main loop of the overall process.
+- specifications/JUSTIS_CHAMBER_PRODUCT_SPEC.md: product specification for the desktop Parliament app.
+- specifications/PARLIAMENT_ENGINE_RUNTIME.yml: runtime model for the Parliament Engine.
+- specifications/CURSOR_SDK_ADAPTER.md: Cursor SDK adapter plan.
 - archive: historical, superseded, or non-active material.
 
 ## Agent Tasks

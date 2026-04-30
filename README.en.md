@@ -85,4 +85,6 @@ Agent-generated text is not a law of the Code unless it passes the project proce
 
 The Code currently contains `Lex I-V`.
 
-The next recommended substantive topic is Q-006: whether justice can exist without truth.
+Q-006, whether justice can exist without truth, has a completed deliberation protocol but has not yet entered the Code.
+
+The next substantive step is to test Q-006 for `codex_candidate` readiness or explicitly mark it as `revisendum` / `aporia`.

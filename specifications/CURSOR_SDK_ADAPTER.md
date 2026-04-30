@@ -32,8 +32,8 @@ Cursor SDK should not become the heart of JUSTIS.
 The heart remains:
 
 - `Parliament Engine`;
-- `SESSION_PROTOCOL_JML.yml`;
-- `PARLIAMENT_MAIN_LOOP.md`;
+- `specifications/SESSION_PROTOCOL_JML.yml`;
+- `specifications/PARLIAMENT_MAIN_LOOP.md`;
 - repository safety rules.
 
 Cursor SDK is an adapter.

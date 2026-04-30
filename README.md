@@ -21,6 +21,7 @@ English readers should begin with:
 7. `codex/translations/UNIVERSAL_JUSTICE_CODE.en.md` - the English translation of the Code.
 
 Ukrainian remains the primary working language of many protocols and research notes, but the public entrance to the project is now English-readable.
+Ukrainian readers can use `README.uk.md` as the fuller Ukrainian entrance.
 
 ## What This Is
 
@@ -65,7 +66,9 @@ The project values consensus, traceability, and strong objections more than spee
 
 The Code currently contains `Lex I-V`.
 
-The next recommended substantive question is Q-006: whether justice can exist without truth.
+Q-006, whether justice can exist without truth, has a completed deliberation protocol but has not yet entered the Code.
+
+The next substantive step is to test Q-006 for `codex_candidate` readiness or explicitly mark it as `revisendum` / `aporia`.
 
 ## Change Rule
 
