@@ -42,7 +42,7 @@
 | Q-003 | P0 | codex_done | Чи можуть однакові випадки оцінюватися по-різному без несправедливості? | аксіома | `protocols/moral/axioms/2026-04-27_Q-003_equal-cases-consistency.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-003_equal-cases-consistency.md`, `arguments/axioms/Q-003_equal-cases-consistency.md` |
 | Q-004 | P0 | codex_done | Чи може сила сама по собі створювати право? | аксіома | `protocols/moral/axioms/2026-04-27_Q-004_force-and-right.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-004_force-and-right.md`, `arguments/axioms/Q-004_force-and-right.md` |
 | Q-005 | P0 | codex_done | Чи має слабший моральну вагу, незалежну від своєї сили? | аксіома | `protocols/moral/axioms/2026-04-27_Q-005_moral-weight-of-the-weak.md`, `codex/UNIVERSAL_JUSTICE_CODE.md`, `support/codex/LAWS.md`, `research/axioms/Q-005_moral-weight-of-the-weak.md`, `arguments/axioms/Q-005_moral-weight-of-the-weak.md` |
-| Q-006 | P0 | opened | Чи може справедливість існувати без правди? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
+| Q-006 | P0 | protocol_done | Чи може справедливість існувати без правди? | аксіома | `protocols/moral/axioms/2026-04-28_Q-006_justice-without-truth.md`, `research/axioms/Q-006_justice-without-truth.md`, `arguments/axioms/Q-006_justice-without-truth.md` |
 | Q-007 | P0 | opened | Чи має моральне правило бути здатним до універсалізації? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-008 | P0 | opened | Чи існує справедливість вище позитивного закону? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
 | Q-009 | P0 | opened | Чи можлива універсальна етика без єдиної метафізики? | аксіома | `specifications/RESEARCH_METHODOLOGY.md` |
@@ -144,3 +144,24 @@
 Причина:
 
 Q-001, Q-002, Q-003, Q-004 і Q-005 вже внесені до робочого Кодексу за повними дискусіями. Наступний змістовний крок - Q-006, бо без правди неможливо надійно встановлювати страждання, гідність, зловживання силою, релевантну подібність випадків або становище слабшого.
+
+## Пропозиції агентів
+
+### Q-006
+
+```yaml
+typus: propositio_agentis
+agent: "GPT-5.2"
+quaestio: "Q-006"
+propositum: "Закріпити мінімальний епістемічний стандарт для справедливості як формулу-кандидат (перед-`codex_candidate`) та завершити доказову базу: синхронізувати протокол↔research↔argument tree, додати кейси для відкритих ризиків, підготувати умови для можливого внесення як Lex VI."
+ratio: "Q-006 є P0 і підкладає фундамент під застосування Lex I–V; без явного мінімуму правдивості справедливість деградує до влади наративу. Протокол уже містить повну дискусійну структуру і рішення з обмеженим консенсусом, тому наступний коректний крок — довести трасовність і протестувати відкриті заперечення кейсами."
+fides_fontis: reconstruction
+periculum:
+  - "Ризик зловживання принципом 'правди' як цензурою або інституційною монополією (фукіанська лінія)."
+  - "Заперечення O-002 ('хто визначає доказ') лишається частково відкритим і потребує процедурних уточнень та кейсів."
+status: proposed
+evidence:
+  protocol: "protocols/moral/axioms/2026-04-28_Q-006_justice-without-truth.md"
+  research: "research/axioms/Q-006_justice-without-truth.md"
+  argument_tree: "arguments/axioms/Q-006_justice-without-truth.md"
+```

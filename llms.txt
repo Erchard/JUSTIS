@@ -7,7 +7,6 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - README.md
 - PROJECT_BRIEF.en.md
 - README.en.md
-- README.uk.md
 - INDEX.en.md
 - AGENTS.en.md
 - CONTRIBUTING.en.md
@@ -21,6 +20,7 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - support/codex/TERMINOLOGY.md
 - support/codex/TRANSLATION_POLICY.md
 - specifications/SESSION_PROTOCOL_JML.yml
+- specifications/PARLIAMENT_MAIN_LOOP.md
 
 ## Core Directories
 
@@ -33,6 +33,7 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 - sources: notes on authors, traditions, and texts.
 - specifications: current methodology and standards.
 - specifications/SESSION_PROTOCOL_JML.yml: canonical DSL algorithm for every session.
+- specifications/PARLIAMENT_MAIN_LOOP.md: canonical main loop of the overall process.
 - archive: historical, superseded, or non-active material.
 
 ## Agent Tasks

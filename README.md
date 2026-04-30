@@ -4,6 +4,10 @@ JUSTIS is an open project for building a Universal Code of Justice through struc
 
 It is not a manifesto of final truth. It is a public working corpus for testing moral claims.
 
+## Central Idea
+
+JUSTIS is built as the **Heavenly Parliament**: a deliberative process where ~50 historically authoritative thinkers and traditions with **conflicting** views on justice debate, object, answer, and stress-test every proposed rule until only procedure-supported principles survive.
+
 ## Start Here
 
 English readers should begin with:
@@ -66,15 +70,3 @@ The next recommended substantive question is Q-006: whether justice can exist wi
 ## Change Rule
 
 Every file change should be committed to Git. Old material should usually be moved to `archive/` instead of being deleted when it may still have historical value.
-
----
-
-# JUSTIS Українською
-
-JUSTIS - відкритий проєкт зі створення Універсального кодексу справедливості через дисципліновані дискусії, заперечення, граничні кейси й переглядні рішення.
-
-Це не маніфест остаточної істини. Це робочий корпус для перевірки моральних принципів.
-
-Україномовні читачі можуть починати з `INDEX.md`, `OPEN_QUESTIONS.md`, `DECISIONS.md` і `codex/translations/UNIVERSAL_JUSTICE_CODE.uk.md`.
-
-Повніший український вступ: `README.uk.md`.

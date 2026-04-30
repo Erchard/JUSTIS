@@ -24,6 +24,7 @@
 - Чинний регламент: `specifications/RESEARCH_METHODOLOGY.md` і `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`.
 - Склад парламенту: `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`.
 - Формат JML: `specifications/JUSTICE_MARKUP_LANGUAGE.md`.
+- Main Loop парламенту (канонічний алгоритм): `specifications/PARLIAMENT_MAIN_LOOP.md`.
 
 ## Поточні Закони
 
