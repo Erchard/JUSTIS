@@ -39,7 +39,7 @@ protocols/
 
 Поточні підпапки:
 
-- `protocols/moral/axioms` - базові питання Q-001, Q-002, Q-003, Q-004 тощо;
+- `protocols/moral/axioms` - базові питання Q-001, Q-002, Q-003, Q-004, Q-005, Q-006 тощо;
 - майбутні прикладні моральні теми і повні кейс-сесії створюються лише тоді, коли там з'являється реальний протокол.
 
 ## `organizational`
@@ -76,7 +76,7 @@ YYYY-MM-DD_short-topic.md
 Приклади:
 
 ```text
-2026-04-27_Q-005_weak-moral-weight.md
+2026-04-27_Q-005_moral-weight-of-the-weak.md
 2026-04-27_D-029_source-reliability-rule.md
 ```
 

@@ -177,6 +177,68 @@ def check_codex_translations(errors: list[str]) -> None:
         fail(errors, f"Unexpected official codex translation {filename}")
 
 
+def check_known_content_consistency(errors: list[str]) -> None:
+    """Guard high-level project state that appears in several entry files."""
+    root_readme = read_text(ROOT / "README.md")
+    readme_en = read_text(ROOT / "README.en.md")
+    readme_uk = read_text(ROOT / "README.uk.md")
+    index = read_text(ROOT / "INDEX.md")
+    index_en = read_text(ROOT / "INDEX.en.md")
+    open_questions = read_text(ROOT / "OPEN_QUESTIONS.md")
+    members = read_text(ROOT / "specifications" / "HEAVENLY_PARLIAMENT_MEMBERS.md")
+    axioms_readme = read_text(ROOT / "protocols" / "moral" / "axioms" / "README.md")
+    terminology = read_text(ROOT / "support" / "codex" / "TERMINOLOGY.md")
+
+    for path, text in {
+        "README.md": root_readme,
+        "specifications/HEAVENLY_PARLIAMENT_MEMBERS.md": members,
+    }.items():
+        if "62" not in text:
+            fail(errors, f"{path} does not mention the current parliament count of 62")
+
+    stale_phrases = {
+        "README.uk.md": [
+            "Наступна рекомендована змістовна тема: Q-006",
+            "Q-006 - чи може справедливість існувати без правди",
+        ],
+        "protocols/moral/axioms/README.md": [
+            "Наступна рекомендована аксіома",
+            "Q-005: моральна вага слабшого.",
+        ],
+        "support/codex/TERMINOLOGY.md": [
+            "Перші чотири закони",
+        ],
+    }
+    texts = {
+        "README.uk.md": readme_uk,
+        "protocols/moral/axioms/README.md": axioms_readme,
+        "support/codex/TERMINOLOGY.md": terminology,
+    }
+    for path, phrases in stale_phrases.items():
+        for phrase in phrases:
+            if phrase in texts[path]:
+                fail(errors, f"{path} contains stale phrase: {phrase}")
+
+    q006_line = next(
+        (line for line in open_questions.splitlines() if line.startswith("| Q-006 |")),
+        "",
+    )
+    if "| protocol_done |" not in q006_line:
+        fail(errors, "OPEN_QUESTIONS.md must keep Q-006 at protocol_done until codex insertion is ratified")
+    if "Lex VI" not in open_questions:
+        fail(errors, "OPEN_QUESTIONS.md should identify Q-006 as possible Lex VI candidate work")
+
+    for path, text in {
+        "README.md": root_readme,
+        "README.en.md": readme_en,
+        "README.uk.md": readme_uk,
+        "INDEX.md": index,
+        "INDEX.en.md": index_en,
+    }.items():
+        if "Q-006" in text and "codex_candidate" not in text:
+            fail(errors, f"{path} mentions Q-006 without the current codex_candidate readiness step")
+
+
 def main() -> int:
     errors: list[str] = []
     check_markdown_links(errors)
@@ -185,6 +247,7 @@ def main() -> int:
     check_cases(errors)
     check_codex_traceability(errors)
     check_codex_translations(errors)
+    check_known_content_consistency(errors)
     if errors:
         print("JUSTIS validation failed:")
         for error in errors:
