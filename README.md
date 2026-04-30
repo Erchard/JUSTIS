@@ -6,7 +6,7 @@ It is not a manifesto of final truth. It is a public working corpus for testing 
 
 ## Central Idea
 
-JUSTIS is built as the **Heavenly Parliament**: a deliberative process where ~50 historically authoritative thinkers and traditions with **conflicting** views on justice debate, object, answer, and stress-test every proposed rule until only procedure-supported principles survive.
+JUSTIS is built as the **Heavenly Parliament**: a deliberative process where 62 historically authoritative thinkers and traditions with **conflicting** views on justice debate, object, answer, and stress-test every proposed rule until only procedure-supported principles survive.
 
 ## Start Here
 

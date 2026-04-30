@@ -20,7 +20,7 @@
 
 ## Якщо Продовжуєте Роботу
 
-- Наступне питання: Q-006 у `OPEN_QUESTIONS.md`.
+- Наступний змістовний крок: перевірити Q-006 на готовність до `codex_candidate` або явно позначити `revisendum` / `aporia`.
 - Чинний регламент: `specifications/RESEARCH_METHODOLOGY.md` і `specifications/PROCEDURAL_INTEGRITY_STANDARD.md`.
 - Склад парламенту: `specifications/HEAVENLY_PARLIAMENT_MEMBERS.md`.
 - Формат JML: `specifications/JUSTICE_MARKUP_LANGUAGE.md`.
